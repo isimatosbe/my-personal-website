@@ -1,21 +1,21 @@
 [
     {
-        "company": "Microsoft",
+        "organization": "Microsoft",
         "description": "Microsoft Certified: Azure Data Fundamentals",
         "startingDate": "2023-01-01" 
     },
     {
-        "company": "Microsoft",
+        "organization": "Microsoft",
         "description": "Microsoft Certified: Azure AI Fundamentals",
         "startingDate": "2021-07-01" 
     },
     {
-        "company": "Microsoft",
+        "organization": "Microsoft",
         "description": "Microsoft Certified: Power Platform Fundamentals",
         "startingDate": "2021-02-01" 
     },
     {
-        "company": "Cambridge Assessment English",
+        "organization": "Cambridge Assessment English",
         "description": "First Certificate in English (B2)",
         "startingDate": "2016-06-01" 
     }
