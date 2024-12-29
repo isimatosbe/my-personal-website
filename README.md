@@ -1,5 +1,5 @@
 # Description
-This website is meant to be a web CV and a showcase for interesting projects that I made.
+This website is meant to be a web CV and a showcase for interesting projects that I made. As of 29/12/24 the [website](https://isimatosbe.es/) is already in production!
 
 # Roadmap
 My main goal is to get this website to the MVP (v1.0) from that point onwards it will help me improve but it will be useful and sharable.
@@ -12,6 +12,8 @@ My main goal is to get this website to the MVP (v1.0) from that point onwards it
         - [x] Education
         - [x] Certifications
         - [x] Skills
+
+Screenshot of the website at v0.1 ![Screenshot v0.1](/src/assets/v0.1.png)
 - v0.2: Photo & Socials
     - [ ] Photo
     - [ ] Socials: Adding links to GitHub, LinkedIn and mail
