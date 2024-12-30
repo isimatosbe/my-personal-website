@@ -15,8 +15,8 @@ My main goal is to get this website to the MVP (v1.0) from that point onwards it
 
 Screenshot of the website at v0.1 ![Screenshot v0.1](/src/assets/v0.1.png)
 - v0.2: Photo & Socials
-    - [ ] Photo
-    - [ ] Socials: Adding links to GitHub, LinkedIn and mail
+    - [x] Photo
+    - [x] Socials: Adding links to GitHub, LinkedIn and mail
 - v0.3: Add formating and styling
     - [ ] Aesthetic skills display
     - [ ] Uniform and clean section style
