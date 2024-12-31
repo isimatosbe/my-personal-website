@@ -13,10 +13,12 @@ My main goal is to get this website to the MVP (v1.0) from that point onwards it
         - [x] Certifications
         - [x] Skills
 
-Screenshot of the website at v0.1 ![Screenshot v0.1](/src/assets/v0.1.png)
+Screenshot of the website at v0.1 ![Screenshot v0.1](/src/assets/history/v0.1.png)
 - v0.2: Photo & Socials
     - [x] Photo
-    - [x] Socials: Adding links to GitHub, LinkedIn and mail
+    - [x] Socials: Adding links to GitHub and LinkedIn
+
+Screenshot of the website at v0.2 ![Screenshot v0.2](/src/assets/history/v0.2.png)
 - v0.3: Add formating and styling
     - [ ] Aesthetic skills display
     - [ ] Uniform and clean section style
@@ -31,4 +33,4 @@ Screenshot of the website at v0.1 ![Screenshot v0.1](/src/assets/v0.1.png)
 - v1.0: Making sure everything looks nice and clean. This will be the MVP. 
 
 Initial mockup for the MVP:
-![Mockup](src/assets/Initial-Mockup.png)
+![Mockup](src/assets/history/Initial-Mockup.png)
