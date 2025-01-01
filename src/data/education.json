@@ -4,13 +4,13 @@
         "description": "Master's degree on Logic, Computer Science and AI",
         "startingDate": "2021-10-01",
         "endingDate": "2022-09-01",
-        "averageGrade": 9.66
+        "averageGrade": "Average Grade: 9.66"
     },
     {
         "organization": "University of Seville",
         "description": "Mathematics degree",
         "startingDate": "2017-09-01",
         "endingDate": "2021-07-01",
-        "averageGrade": 7.28
+        "averageGrade":  "Average Grade: 7.28"
     }
 ]

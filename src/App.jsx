@@ -14,11 +14,16 @@ function App() {
   return (
     <>
       <Header />
-      <Section key="AboutMe" title="About Me" texts={[aboutMe]} />
-      <Section key="Experience" title="Experience" texts={experience}/>	
-      <Section key="Education" title="Education" texts={education} />
-      <Section key="Certifications" title="Certifications" texts={certifications} />
-      <Section key="Skills" title="Skills" texts={skills} />
+      <h2 className='section'>About Me</h2>
+      <p>{aboutMe.description}</p>
+
+      <Section key="Experience" title="Experience" data={experience} />	
+
+      <Section key="Education" title="Education" data={education} />
+
+      <Section key="Certifications" title="Certifications" data={certifications} />
+      
+      <Section key="Skills" title="Skills" data={skills} />
     </>
   )
 }

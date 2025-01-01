@@ -3,3 +3,23 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.section {
+  font-weight: bold;
+}
+
+.entry {
+  font-weight: normal;
+}
+
+.entryLine {
+  display: flex;
+  justify-content: space-between;
+  line-height: .33rem;
+  align-items: baseline;
+}
+
+.entryLine2 {
+  display: flex;
+  justify-content: space-between;
+}
