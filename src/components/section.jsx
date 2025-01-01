@@ -7,6 +7,7 @@ export default function Section({ title, data }) {
     return (
         <>
             <h2 className='section'>{title}</h2>
+            <hr />
             {sortedData.map( entry => 
                 <Entry 
                     key={entry.description}

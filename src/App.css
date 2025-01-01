@@ -4,6 +4,10 @@
   padding: 2rem;
 }
 
+hr {
+  margin-top: -1rem;
+}
+
 .section {
   font-weight: bold;
 }

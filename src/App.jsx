@@ -15,6 +15,7 @@ function App() {
     <>
       <Header />
       <h2 className='section'>About Me</h2>
+      <hr />
       <p>{aboutMe.description}</p>
 
       <Section key="Experience" title="Experience" data={experience} />	
