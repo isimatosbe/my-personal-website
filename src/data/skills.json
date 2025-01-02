@@ -1,32 +1,32 @@
 [
     {
         "description": "Python",
-        "level": 3,
+        "level": 4,
         "category": "Programming Language"
     },
     {
         "description": "SQL",
-        "level": 3,
+        "level": 4,
         "category": "Programming Language"
     },
     {
         "description": "DAX",
-        "level": 3,
+        "level": 4,
         "category": "Programming Language"
     },
     {
         "description": "MatLab",
-        "level": 2,
+        "level": 3,
         "category": "Programming Language"
     },
     {
         "description": "Spanish",
-        "level": 4,
+        "level": 5,
         "category": "Language"
     },
     {
         "description": "English",
-        "level": 3,
+        "level": 4,
         "category": "Language"
     }
 ]

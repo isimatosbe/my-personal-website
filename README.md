@@ -20,7 +20,7 @@ Screenshot of the website at v0.1 ![Screenshot v0.1](/public/assets/history/v0.1
 
 Screenshot of the website at v0.2 ![Screenshot v0.2](/public/assets/history/v0.2.png)
 - v0.3: Add formating and styling
-    - [ ] Aesthetic skills display
+    - [x] Aesthetic skills display
     - [x] Uniform and clean section style
     - [x] Uniform and simple entry style
 - v0.4: Menu & Projects section
