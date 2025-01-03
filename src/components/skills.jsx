@@ -16,10 +16,11 @@ function Skill ({ description, level, category }) {
 
     return (
         <div className="skill">
-            <p>{description}</p>
-            <div style={{display: "flex", justifyContent: "flex-start", columnGap: "5px"}}>
+            <p style={{fontWeight: 550}}>{description}</p>
+            <div title={levelDescrition[level]} 
+                style={{display: "flex", justifyContent: "flex-start", columnGap: "5px"}}>
                 {colorArray.map(( color, index ) => 
-                    <span key={"dot_" + index} className="dot" style={{backgroundColor: color}}></span>
+                    <span key={"dot_" + index} className="skill-dot" style={{backgroundColor: color}}></span>
                     )
                 }
             </div>
@@ -31,7 +32,7 @@ function Skill ({ description, level, category }) {
 export default function Skills ({ data }) {
     return (
         <>
-            <div className="skills">
+            <div className="skill-container">
                 {data.map( (skill) => 
                     <Skill 
                         key={skill.description}

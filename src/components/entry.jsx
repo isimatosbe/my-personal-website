@@ -26,12 +26,12 @@ export default function Entry({ description, startingDate, endingDate, organizat
     console.log(description)
     return (
         <div className="entry">
-            <div key={description} className="entryLine" >
+            <div key={description} className="entry-line" >
                 <p style={{"fontWeight": "650"}}>{organization}</p>
                 <i>{getDates(startingDate, endingDate)}</i>
             </div>
             
-            <div key={organization} className="entryLine" >
+            <div key={organization} className="entry-line" >
                 <p>{description}</p>
                 <i>{remarks}</i>
             </div>

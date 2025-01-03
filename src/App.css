@@ -12,10 +12,6 @@ h1 {
   text-align: center;
 }
 
-.whiteSpace {
-  /*font-size: x-large;*/
-}
-
 .section {
   font-weight: bold;
 }
@@ -24,14 +20,14 @@ h1 {
   font-weight: normal;
 }
 
-.entryLine {
+.entry-line {
   display: flex;
   justify-content: space-between;
   line-height: .3rem;
   align-items: baseline;
 }
 
-.skills {
+.skill-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -49,10 +45,9 @@ h1 {
   column-gap: 15px;
 }
 
-.dot {
+.skill-dot {
   height: 15px;
   width: 15px;
-  /*background-color: #bbb;*/
   border-radius: 50%;
   display: inline-block;
 }
