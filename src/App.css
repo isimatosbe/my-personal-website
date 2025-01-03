@@ -5,11 +5,35 @@
 }
 
 hr {
-  margin-top: -1rem;
+  margin-top: 0;
 }
 
 h1 {
   text-align: center;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around
+}
+
+.cv-photo {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 35%;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly
 }
 
 .section {
@@ -18,12 +42,13 @@ h1 {
 
 .entry {
   font-weight: normal;
+  margin-bottom: 1em;
 }
 
 .entry-line {
   display: flex;
   justify-content: space-between;
-  line-height: .3rem;
+  /*line-height: .3rem;*/
   align-items: baseline;
 }
 
@@ -33,16 +58,31 @@ h1 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 2em;
-  column-gap: 15px;
+  column-gap: 1em;
+  row-gap: 0.75em;
 }
 
-.skill {
-  margin-top: -1.5em;
+.skill-line {
+  /*margin-top: -1.5em;*/
   display: flex;
   justify-content: center;
   align-items: center;
   flex-basis: 20%;
   column-gap: 15px;
+}
+
+.bold {
+  font-weight: 650
+}
+
+.semi-bold {
+  font-weight: 550
+}
+
+.skill-level {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 5px
 }
 
 .skill-dot {

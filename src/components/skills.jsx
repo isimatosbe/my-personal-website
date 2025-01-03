@@ -1,10 +1,4 @@
-const levelDescrition = {
-    1: "Learning",
-    2: "Beginner",
-    3: "Intermediate",
-    4: "Advanced",
-    5: "Expert"
-}
+import { levelDescrition } from "../data/constants"
 
 function Skill ({ description, level, category }) {
     const color = 
@@ -12,13 +6,13 @@ function Skill ({ description, level, category }) {
         category === "Language" ? "#75B761" : 
         "#E45050"
 
-    const colorArray = Array.from({length:5},(_,i)=>i < level ? color : "#bbb" )
+    const colorArray = Array.from({length:5},(_,i)=>i < level ? color : "#BBB" )
 
     return (
-        <div className="skill">
-            <p style={{fontWeight: 550}}>{description}</p>
+        <div className="skill-line">
+            <p className="semi-bold">{description}</p>
             <div title={levelDescrition[level]} 
-                style={{display: "flex", justifyContent: "flex-start", columnGap: "5px"}}>
+                className="skill-level">
                 {colorArray.map(( color, index ) => 
                     <span key={"dot_" + index} className="skill-dot" style={{backgroundColor: color}}></span>
                     )
@@ -31,18 +25,16 @@ function Skill ({ description, level, category }) {
 
 export default function Skills ({ data }) {
     return (
-        <>
-            <div className="skill-container">
-                {data.map( (skill) => 
-                    <Skill 
-                        key={skill.description}
-                        description={skill.description}
-                        level={skill.level}
-                        category={skill.category}
-                        />
-                    )
-                }
-            </div> 
-        </>
+        <div className="skill-container">
+            {data.map( (skill) => 
+                <Skill 
+                    key={skill.description}
+                    description={skill.description}
+                    level={skill.level}
+                    category={skill.category}
+                    />
+                )
+            }
+        </div>
     )
 }

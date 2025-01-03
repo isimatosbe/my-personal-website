@@ -23,11 +23,10 @@ function getDates(startingDate, endingDate) {
 }
 
 export default function Entry({ description, startingDate, endingDate, organization, remarks }) {
-    console.log(description)
     return (
         <div className="entry">
             <div key={description} className="entry-line" >
-                <p style={{"fontWeight": "650"}}>{organization}</p>
+                <p className="bold">{organization}</p>
                 <i>{getDates(startingDate, endingDate)}</i>
             </div>
             
@@ -35,11 +34,6 @@ export default function Entry({ description, startingDate, endingDate, organizat
                 <p>{description}</p>
                 <i>{remarks}</i>
             </div>
-
-            <div>
-                <p></p>
-            </div>
-
         </div>
     )
 }

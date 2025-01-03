@@ -5,8 +5,8 @@ export default function Section({ title, data }) {
         data.sort((a, b) => new Date(a.startingDate) <= new Date(b.startingDate) ? 1 : -1)
 
     return (
-        <>
-            <h2 className='section'>{title}</h2>
+        <div key={title}>
+            <h2 className="section">{title}</h2>
             <hr />
             {sortedData.map( entry => 
                 <Entry 
@@ -19,6 +19,6 @@ export default function Section({ title, data }) {
                     />
                 )
             }
-        </>
+        </div>
     )
 }
