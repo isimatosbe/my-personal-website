@@ -3,3 +3,51 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+hr {
+  margin-top: -1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.section {
+  font-weight: bold;
+}
+
+.entry {
+  font-weight: normal;
+}
+
+.entry-line {
+  display: flex;
+  justify-content: space-between;
+  line-height: .3rem;
+  align-items: baseline;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  column-gap: 15px;
+}
+
+.skill {
+  margin-top: -1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 20%;
+  column-gap: 15px;
+}
+
+.skill-dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
