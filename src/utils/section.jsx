@@ -6,7 +6,7 @@ export default function Section({ title, data }) {
 
     return (
         <div key={title}>
-            <h2 className="section">{title}</h2>
+            <h2 className="bold">{title}</h2>
             <hr />
             {sortedData.map( entry => 
                 <Entry 
