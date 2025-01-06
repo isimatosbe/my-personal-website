@@ -26,7 +26,7 @@ Screenshot of the website at v0.2 ![Screenshot v0.2](/public/assets/history/v0.2
 
 Screenshot of the website at v0.3 ![Screenshot v0.3](/public/assets/history/v0.3.png)
 - v0.4: Menu & Projects section
-    - [ ] Menu: Option to move between sections, my first idea is to display it as a folder with the sections marked in the right side of the website.
+    - [x] Menu: Option to move between sections (My first idea was to display it as a folder with the sections marked in the right side of the website).
     - [ ] Projects section: Submenu to showcase new projects I start. The first thing to add is a history of this website with every version avaliable.
 - v0.5: Finishing touches:
     - [ ] Up Arrow to move back up

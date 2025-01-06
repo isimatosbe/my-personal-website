@@ -88,22 +88,28 @@ p {
 .navBar {
   display: flex;
   justify-content: flex-end;
-  column-gap: 0.5rem;
+  column-gap: 1rem;
+  margin-top: 1rem;
 }
 
 .navBar-item {
-  border-bottom: 2.5rem solid #fbff00;
-	border-left: 1.5rem  solid transparent;
-	border-right: 1.5rem solid transparent;
-	height: 0;
-	width: 10rem;
+  height: 2rem;
+  width: 7.5rem;
+  background-color: white;
+  border-radius: 3rem;
+  border: 0.125rem solid #4E8FDF;
+
   text-align: center;
-  line-height: 2.5rem;
-  font-size: 1.25rem;
+  line-height: 2rem;
+  font-size: 1rem;
   color: black;
 }
 
+.navBar-item:hover {
+  box-shadow: 0 0 10px #08324e;
+}
+
 .navBar-item.active {
-  border-bottom: 2.5rem solid #1992e3;
+  background-color: #4E8FDF;
   color: white;
 }
