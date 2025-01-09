@@ -113,3 +113,9 @@ p {
   background-color: #4E8FDF;
   color: white;
 }
+
+.code {
+    background-color: #EEEEEE;
+    color: #213547;
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
