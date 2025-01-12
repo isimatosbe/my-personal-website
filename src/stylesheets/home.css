@@ -107,6 +107,8 @@ p {
 
 .navBar-item:hover {
   box-shadow: 0 0 10px #08324e;
+  text-decoration-line: none;
+  color: inherit;
 }
 
 .navBar-item.active {
@@ -115,7 +117,19 @@ p {
 }
 
 .code {
-    background-color: #EEEEEE;
+    /*background-color: #EEEEEE;*/
     color: #213547;
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+.code:hover{
+  color: inherit;
+}
+
+.tag {
+  padding: .1rem .5rem .2rem .5rem;
+  border-radius: .4rem;
+  background: #222e2f;
+  color: #fff;
+  font-weight: 550;
 }
