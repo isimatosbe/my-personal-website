@@ -1,0 +1,15 @@
+[
+    {
+        "title": "my-personal-website",
+        "url": "https://github.com/isimatosbe/my-personal-website",
+        "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
+        "description": "The first project that will be included in this section is the design and iterations needed to create this website."
+    },
+    {
+        "title": "aprendizaje-por-refuerzo",
+        "url": "https://github.com/isimatosbe/AprendizajePorRefuerzo",
+        "tags": ["Git", "Python", "AI"],
+        "description": "This was part of my Master's Thesis. The thesis was about Reinforcement Learning and its applications, in this repository I uploaded the code that I used to test the algorithms."
+    }
+
+]
