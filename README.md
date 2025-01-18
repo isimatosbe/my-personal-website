@@ -33,14 +33,19 @@ Screenshot of the website at v0.3
 ![Screenshot v0.3](/public/assets/history/v0.3.png)
 - v0.4: Menu & Projects section
     - [x] Menu: Option to move between sections (My first idea was to display it as a folder with the sections marked in the right side of the website).
-    - [ ] Projects section: Submenu to showcase new projects I start. The first thing to add is a history of this website with every version avaliable.
+    - [x] Projects section: Submenu to showcase new projects I start. The first thing to add is a history of this website with every version avaliable.
+
+![Screenshot v0.4 Home](/public/assets/history/v0.4%20-%20Home.png)
+![Screenshot v0.4 Projects](/public/assets/history/v0.4%20-%20Projects.png)
 - v0.5: Finishing touches:
     - [ ] Up Arrow to move back up
     - [ ] Dark Mode
     - [ ] Spanish Version
     - [ ] Create color palette
     - [ ] Footer
+    - [ ] Dropped projects
 - v0.6: Making the web responsive
+- v0.7: Optimize building
 - v1.0: Making sure everything looks nice and clean. This will be the MVP. 
 - v2.0: Learning TypeScript and updating the website to TS.
 
