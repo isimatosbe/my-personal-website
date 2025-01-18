@@ -5,7 +5,7 @@ import experience from '../data/experience.json'
 import education from '../data/education.json'
 import certifications from '../data/certifications.json'
 
-export default function Body() {
+export default function Resume() {
     return (
         <>
             <AboutMe />
