@@ -1,5 +1,6 @@
 import NavBar from '../components/navBar.jsx'
 import Header from '../components/header.jsx'
+import ScrollToTop from '../utils/scrollToTop.jsx'
 
 import Project from '../utils/project.jsx'
 
@@ -43,6 +44,7 @@ export default function Projects() {
                         description={project.description} />
                 )}
             </ul>
+            <ScrollToTop />
         </>
     )
 }

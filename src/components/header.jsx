@@ -8,16 +8,16 @@ export default function Header() {
             <img src="/assets/foto-cv.jpg" alt="Foto CV" width="20%" height="20%"
                  className="cv-photo" />
                  
-            <div>
+            <div className="header-data">
                 <h1>Isidro Matos Bellido</h1>
 
                 <div className="socials">
                     <a href="https://github.com/isimatosbe">
-                        <img src="/assets/img/GitHub_Lockup_Dark.svg" alt="GitHub's Logo" width="100" />
+                        <img src="/assets/logos/GitHub_Lockup_Dark.svg" alt="GitHub's Logo" width="100px" />
                     </a>
                     
                     <a href="https://www.linkedin.com/in/isimatosbe">
-                        <img src="/assets/img/LinkedIn-Blue.png" alt="LinkedIn's Logo" width="100" />                
+                        <img src="/assets/logos/LinkedIn-Blue.png" alt="LinkedIn's Logo" width="100px" />                
                     </a>
                 </div>
 
