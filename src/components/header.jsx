@@ -13,11 +13,11 @@ export default function Header() {
 
                 <div className="socials">
                     <a href="https://github.com/isimatosbe">
-                        <img src="/assets/logos/GitHub_Lockup_Dark.svg" alt="GitHub's Logo" width="100px" />
+                        <img src="/assets/logos/GitHub_Lockup_Dark.svg" alt="GitHub's Logo" width="125px" />
                     </a>
                     
                     <a href="https://www.linkedin.com/in/isimatosbe">
-                        <img src="/assets/logos/LinkedIn-Blue.png" alt="LinkedIn's Logo" width="100px" />                
+                        <img src="/assets/logos/LinkedIn-Blue.png" alt="LinkedIn's Logo" width="125px" />                
                     </a>
                 </div>
 

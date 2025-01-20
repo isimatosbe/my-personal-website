@@ -1,5 +1,6 @@
 import '../stylesheets/home.css'
 
+import Footer from '../components/footer.jsx'
 import Header from '../components/header.jsx'
 import NavBar from '../components/navBar.jsx'
 import Resume from '../components/resume.jsx'
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <Resume />
       <ScrollToTop />
+      <Footer />
     </>
   )
 }

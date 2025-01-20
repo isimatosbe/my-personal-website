@@ -1,5 +1,6 @@
-import NavBar from '../components/navBar.jsx'
+import Footer from '../components/footer.jsx'
 import Header from '../components/header.jsx'
+import NavBar from '../components/navBar.jsx'
 import ScrollToTop from '../utils/scrollToTop.jsx'
 
 import Project from '../utils/project.jsx'
@@ -45,6 +46,7 @@ export default function Projects() {
                 )}
             </ul>
             <ScrollToTop />
+            <Footer />
         </>
     )
 }

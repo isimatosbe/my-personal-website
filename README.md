@@ -42,7 +42,7 @@ Screenshot of the website at v0.3
     - [ ] Dark Mode
     - [ ] Spanish Version
     - [ ] Create color palette
-    - [ ] Footer
+    - [x] Footer
     - [ ] Dropped projects
 - v0.6: Making the web responsive
 - v0.7: Optimize building
