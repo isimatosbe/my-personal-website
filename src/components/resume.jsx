@@ -9,7 +9,6 @@ export default function Resume() {
     return (
         <>
             <AboutMe />
-
             <Section key="Experience" title="Experience" data={experience} />	
             <Section key="Education" title="Education" data={education} />
             <Section key="Certifications" title="Certifications" data={certifications} />        

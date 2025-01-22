@@ -1,8 +1,6 @@
 #root {
-  max-width: 60%;
   margin: 0 auto;
   padding: 0 2rem 2rem 2rem;
-  background-color: #fff;
 }
 
 hr {
@@ -102,29 +100,29 @@ p {
 .navBar-item {
   height: 2rem;
   width: 7.5rem;
-  background-color: white;
+  background-color: var(--primary-light);
   border-radius: 3rem;
-  border: 0.125rem solid #4E8FDF;
+  border: 0.125rem solid var(--accent-blue);
   text-align: center;
   line-height: 2rem;
   font-size: 1rem;
-  color: black;
+  color: var(--primary-dark);
 }
 
 .navBar-item:hover {
-  box-shadow: 0 0 10px #08324e;
+  box-shadow: 0 0 10px var(--accent-shadow);
   text-decoration-line: none;
   color: inherit;
 }
 
 .navBar-item.active {
-  background-color: #4E8FDF;
-  color: white;
+  background-color: var(--accent-blue);
+  color: var(--primary-light);
 }
 
 .code {
     /*background-color: #EEEEEE;*/
-    color: #213547;
+    color: var(--primary-dark);
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 }
 
@@ -135,8 +133,8 @@ p {
 .tag {
   padding: .1rem .5rem .2rem .5rem;
   border-radius: .4rem;
-  background: #222e2f;
-  color: #fff;
+  background: var(--primary-dark);
+  color: var(--primary-light);
   font-weight: 550;
 }
 
@@ -144,10 +142,12 @@ p {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  color: #4E8FDF;
+  color: var(--accent-blue);
   height: 2.5rem;
   width: 2.5rem;
   cursor: pointer;
+  background-color: var(--primary-light);
+  border-radius: 50%;
 }
 
 .footer {

@@ -2,11 +2,11 @@ import { levelDescrition } from "../data/constants"
 
 function Skill ({ description, level, category }) {
     const color = 
-        category === "Programming Language" ? "#4E8FDF" :
-        category === "Language" ? "#75B761" : 
-        "#E45050"
+        category === "Programming Language" ? "var(--accent-blue)" :
+        category === "Language" ? "var(--language-skill)" : 
+        "var(--generic-skill)"
 
-    const colorArray = Array.from({length:5},(_,i)=>i < level ? color : "#BBB" )
+    const colorArray = Array.from({length:5},(_,i)=>i < level ? color : "var(--grey-skill)" )
 
     return (
         <div className="skill-line">
