@@ -1,23 +1,32 @@
 :root {
-  --primary-light: #ffffffde;
-  --primary-dark: #121212;
+  /* MAIN COLORS - DEPENDING ON THE THEME */
+  --background: #ffffffde;
+  --text-primary: #121212;
+  --text-secondary: #ffffffde;
+  --accent: #4E8FDF;
+  --accent-shadow: #08324e;
+
+  /* GENERAL COLORS */
+  --white: #ffffffde;
+  --black: #121212;
+
   --link: #646cff;
   --link-hover: #535bf2;
-  --accent-blue: #4E8FDF;
-  --accent-shadow: #08324e;
+
+  /* SPECIFIC COLORS*/
+  /* SKILLS */
   --language-skill: #75B761;
   --generic-skill: #E45050;
   --grey-skill: #BBB;
 
+  /* TAGS */
+  
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 1.25rem;
-
   color-scheme: light dark;
-  color: var(--primary-dark);
-  background-color: var(--primary-light);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,6 +34,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+[data-theme='dark'] {
+  --background: #121212;
+  --text-primary: #ffffffde;
+  --text-secondary: #121212;
+  --accent: #4E8FDF;
+  --accent-shadow: #9bb8dc;
+}
 a {
   font-weight: 500;
   text-decoration: inherit;
@@ -45,43 +61,14 @@ h1 {
   line-height: 1.1em;
 }
 
-/*button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}*/
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    background-color: var(--primary-dark);
-    color: var(--primary-light);
-  }
-  a:hover {
-    color: var(--link-hover);
-  }
-}
-
 @media screen and (max-width: 2000px) {
-  #root {
-    max-width: 90%;
-  }  
+  .app {
+    padding: 0 10% 1rem 10%;
+  }
 }
 
 @media screen and not (max-width: 2000px) {
-  #root {
-    max-width: 60%;
-  }  
+  .app {
+    padding: 0 20% 1rem 20%;
+  }
 }

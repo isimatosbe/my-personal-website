@@ -1,6 +1,11 @@
 #root {
   margin: 0 auto;
-  padding: 0 2rem 2rem 2rem;
+}
+
+.app {
+  color: var(--text-primary);
+  background-color: var(--background);
+  margin: 0 auto;
 }
 
 hr {
@@ -100,13 +105,13 @@ p {
 .navBar-item {
   height: 2rem;
   width: 7.5rem;
-  background-color: var(--primary-light);
+  background-color: var(--background);
   border-radius: 3rem;
-  border: 0.125rem solid var(--accent-blue);
+  border: 0.125rem solid var(--accent);
   text-align: center;
   line-height: 2rem;
   font-size: 1rem;
-  color: var(--primary-dark);
+  color: var(--text-primary);
 }
 
 .navBar-item:hover {
@@ -116,13 +121,12 @@ p {
 }
 
 .navBar-item.active {
-  background-color: var(--accent-blue);
-  color: var(--primary-light);
+  background-color: var(--accent);
+  color: var(--text-secondary);
 }
 
 .code {
-    /*background-color: #EEEEEE;*/
-    color: var(--primary-dark);
+    color: var(--text-primary);
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 }
 
@@ -133,20 +137,20 @@ p {
 .tag {
   padding: .1rem .5rem .2rem .5rem;
   border-radius: .4rem;
-  background: var(--primary-dark);
-  color: var(--primary-light);
   font-weight: 550;
+  background-color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 .scroll-to-top {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  color: var(--accent-blue);
+  color: var(--accent);
   height: 2.5rem;
   width: 2.5rem;
   cursor: pointer;
-  background-color: var(--primary-light);
+  /*background-color: var(--white);*/
   border-radius: 50%;
 }
 

@@ -1,10 +1,11 @@
 import { tagInfo } from "../data/constants"
 
 export default function Tag ( { tag }) {
-    const cleanTag = tag.toLowerCase() in tagInfo ? tag.toLowerCase() : 'generic'
-    const {color, background, name} = tagInfo[cleanTag]
+    const lowerCaseName = tag.toLowerCase()
+    const cleanTag = lowerCaseName in tagInfo ? tag.toLowerCase() : 'generic'
+    const name = tagInfo[cleanTag]
 
     return (
-        <span className="tag" style={{color: color, background: background}}>{"#" + ('Generic' === name ? tag : name)}</span>
+        <span className="tag" style={{color: 'var(--' + lowerCaseName + '-color)', background: 'var(--' + lowerCaseName + '-bg)'}}>{"#" + ('Generic' === name ? tag : name)}</span>
     )
 }

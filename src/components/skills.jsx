@@ -2,7 +2,7 @@ import { levelDescrition } from "../data/constants"
 
 function Skill ({ description, level, category }) {
     const color = 
-        category === "Programming Language" ? "var(--accent-blue)" :
+        category === "Programming Language" ? "var(--accent)" :
         category === "Language" ? "var(--language-skill)" : 
         "var(--generic-skill)"
 
