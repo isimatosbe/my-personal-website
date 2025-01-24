@@ -13,15 +13,6 @@
   --link: #646cff;
   --link-hover: #535bf2;
 
-  /* SPECIFIC COLORS*/
-  /* SKILLS */
-  --language-skill: #75B761;
-  --generic-skill: #E45050;
-  --grey-skill: #BBB;
-
-  /* TAGS */
-  
-
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -40,7 +31,10 @@
   --text-secondary: #121212;
   --accent: #4E8FDF;
   --accent-shadow: #9bb8dc;
+  --git-color: #1B1F24;
+  --git-bg: var(--white);
 }
+
 a {
   font-weight: 500;
   text-decoration: inherit;
@@ -50,10 +44,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: flex-start;
   min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -63,12 +54,12 @@ h1 {
 
 @media screen and (max-width: 2000px) {
   .app {
-    padding: 0 10% 1rem 10%;
+    padding: 0 10% 0 10%;
   }
 }
 
 @media screen and not (max-width: 2000px) {
   .app {
-    padding: 0 20% 1rem 20%;
+    padding: 0 20% 0 20%;
   }
 }

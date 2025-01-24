@@ -1,0 +1,23 @@
+body {
+  /* SPECIFIC COLORS*/
+  /* SKILLS */
+  --language-skill: #75B761;
+  --generic-skill: #E45050;
+  --grey-skill: #BBB;
+
+  /* TAGS */
+  --git-color: var(--white);
+  --git-bg: #1B1F24;
+  --react-color: var(--black);
+  --react-bg: #61DBFB;
+  --javascript-color: var(--black);
+  --javascript-bg: #f7df1e;
+  --html-color: var(--white);
+  --html-bg: #E44D26;
+  --css-color: var(--white);
+  --css-bg: #264DE4;
+  --python-color: var(--white);
+  --python-bg: #306998;
+  --ai-color: var(--black);
+  --ai-bg: #a5f8fb;
+}

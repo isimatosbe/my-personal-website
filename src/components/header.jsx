@@ -2,7 +2,9 @@ import Skills from './skills.jsx'
 
 import skills from '../data/skills.json'
 
-export default function Header() {
+export default function Header( { theme } ) {
+    const contrastTheme = theme === 'dark' ? 'light' : 'dark'
+
     return (
         <div className="header">
             <img src="/assets/foto-cv.jpg" alt="Foto CV" width="20%" height="20%"
@@ -13,11 +15,11 @@ export default function Header() {
 
                 <div className="socials">
                     <a href="https://github.com/isimatosbe">
-                        <img src="/assets/logos/GitHub_Lockup_Dark.svg" alt="GitHub's Logo" width="125px" />
+                        <img src={"/assets/logos/GitHub_Lockup_" + contrastTheme + ".svg"} alt="GitHub's Logo" width="125px" />
                     </a>
                     
                     <a href="https://www.linkedin.com/in/isimatosbe">
-                        <img src="/assets/logos/LinkedIn-Blue.png" alt="LinkedIn's Logo" width="125px" />                
+                        <img src={"/assets/logos/LinkedIn-" + contrastTheme + ".png"} alt="LinkedIn's Logo" width="125px" />                
                     </a>
                 </div>
 

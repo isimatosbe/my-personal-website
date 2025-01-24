@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import useLocalStorage from "use-local-storage";
 
 import NavBar from './components/navBar.jsx';
 import Header from './components/header.jsx';
@@ -8,13 +7,17 @@ import ScrollToTop from './utils/scrollToTop.jsx';
 
 import Home from './pages/home.jsx'
 import Projects from './pages/projects.jsx';
+import useLocalStorage from "use-local-storage";
 
 export default function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+
+    const [theme, setTheme] = useLocalStorage("theme", defaultDark ? 'dark' : 'light');
 
     const switchTheme = () => {
-        setTheme(theme === 'dark' ? 'light' : 'dark');
+        const newTheme = theme === 'dark' ? 'light' : 'dark';
+        setTheme(newTheme);
+        document.body.setAttribute("data-theme", newTheme);
     }
 
     return (
@@ -22,15 +25,14 @@ export default function App() {
             <BrowserRouter>
                 <button onClick={switchTheme}>Switch Theme</button>
                 <NavBar />
-                <Header />
-      
+                <Header theme={theme}/>
+    
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/projects" element={<Projects />} />
                 </Routes>
-
-                <Footer />
                 <ScrollToTop />
+                <Footer />
             </BrowserRouter>
         </div>
     )
