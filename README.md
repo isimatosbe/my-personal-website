@@ -39,7 +39,7 @@ Screenshot of the website at v0.3
 ![Screenshot v0.4 Projects](/src/imgs/history/v0.4%20-%20Projects.png)
 - v0.5: Finishing touches:
     - [x] Up Arrow to move back up
-    - [ ] Dark Mode
+    - [x] Dark Mode
     - [ ] Spanish Version
     - [x] Create color palette
     - [x] Footer

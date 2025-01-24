@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import NavBar from './components/navBar.jsx';
 import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
-import ScrollToTop from './utils/scrollToTop.jsx';
+import ScrollToTop from './components/scrollToTop.jsx';
+import ThemeChanger from "./components/themeChanger.jsx";
 
 import Home from './pages/home.jsx'
 import Projects from './pages/projects.jsx';
@@ -17,13 +18,11 @@ export default function App() {
     const switchTheme = () => {
         const newTheme = theme === 'dark' ? 'light' : 'dark';
         setTheme(newTheme);
-        document.body.setAttribute("data-theme", newTheme);
     }
 
     return (
         <div className="app" data-theme={theme}>
             <BrowserRouter>
-                <button onClick={switchTheme}>Switch Theme</button>
                 <NavBar />
                 <Header theme={theme}/>
     
@@ -32,6 +31,7 @@ export default function App() {
                     <Route path="/projects" element={<Projects />} />
                 </Routes>
                 <ScrollToTop />
+                <ThemeChanger onClick={switchTheme} theme={theme} />
                 <Footer />
             </BrowserRouter>
         </div>
