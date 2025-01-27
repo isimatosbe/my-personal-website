@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router";
+import LanguageDetector from 'i18next-browser-languagedetector';
 
 import NavBar from './components/navBar.jsx';
 import Header from './components/header.jsx';
@@ -11,8 +12,16 @@ import Projects from './pages/projects.jsx';
 import useLocalStorage from "use-local-storage";
 
 export default function App() {
-    const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const languageDetector = new LanguageDetector();
+    const defaultLanguage = languageDetector.detect();
+    const [lang, setLang] = useLocalStorage("lang", defaultLanguage);
 
+    const switchLang = () => {
+        const newLang = lang === 'en-US' ? 'es-ES' : 'en-US';
+        setLang(newLang);
+    }
+
+    const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage("theme", defaultDark ? 'dark' : 'light');
 
     const switchTheme = () => {
@@ -23,16 +32,17 @@ export default function App() {
     return (
         <div className="app" data-theme={theme}>
             <BrowserRouter>
-                <NavBar />
-                <Header theme={theme}/>
+                <button onClick={switchLang} className="langButton">{lang === 'en-US' ? 'Español' : 'English'}</button>
+                <NavBar lang={lang} />
+                <Header lang={lang} theme={theme} />
     
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/" element={<Home lang={lang} />} />
+                    <Route path="/projects" element={<Projects lang={lang} />} />
                 </Routes>
                 <ScrollToTop />
                 <ThemeChanger onClick={switchTheme} theme={theme} />
-                <Footer />
+                <Footer lang={lang} />
             </BrowserRouter>
         </div>
     )

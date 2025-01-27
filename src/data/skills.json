@@ -1,31 +1,50 @@
 [
     {
-        "description": "Python",
+        "description": 
+            {
+                "en-US": "Python",
+                "es-ES": "Python"
+            },
         "level": 4,
         "category": "Programming Language"
     },
     {
-        "description": "SQL",
+        "description": {
+            "en-US": "SQL",
+            "es-ES": "SQL"
+        },
         "level": 4,
         "category": "Programming Language"
     },
     {
-        "description": "DAX",
+        "description": {
+            "en-US": "PowerBI",
+            "es-ES": "PowerBI"
+        },
         "level": 4,
         "category": "Programming Language"
     },
     {
-        "description": "MatLab",
+        "description": {
+            "en-US": "MatLab",
+            "es-ES": "MatLab"
+        },
         "level": 3,
         "category": "Programming Language"
     },
     {
-        "description": "Spanish",
+        "description": {
+            "en-US": "Spanish",
+            "es-ES": "Español"
+        },
         "level": 5,
         "category": "Language"
     },
     {
-        "description": "English",
+        "description": {
+            "en-US": "English",
+            "es-ES": "Inglés"
+        },
         "level": 4,
         "category": "Language"
     }

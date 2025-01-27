@@ -2,7 +2,7 @@ import Project from '../utils/project.jsx'
 
 import projects from '../data/projects.json'
 
-export default function Projects() {
+export default function Projects({ lang }) {
 
     const sortedProjects = 
         projects.sort((a, b) => new Date(a.startingDate) <= new Date(b.startingDate) ? 1 : -1)

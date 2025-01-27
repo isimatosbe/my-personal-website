@@ -11,7 +11,7 @@
         "title": "aprendizaje-por-refuerzo",
         "url": "https://github.com/isimatosbe/AprendizajePorRefuerzo",
         "tags": ["Git", "Python", "AI"],
-        "description": "This the applied part of my Master's Thesis. My thesis focused on Reinforcement Learning and its applications, in this repository I uploaded the code that I used to test the algorithms described in the main text.",
+        "description": "This is the applied part of my Master's Thesis. My thesis focused on Reinforcement Learning and its applications, in this repository I uploaded the code that I used to test the algorithms described in the main text.",
         "startingDate": "2022/08/18",
         "live": false
     },

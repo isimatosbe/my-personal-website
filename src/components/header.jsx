@@ -2,12 +2,12 @@ import Skills from './skills.jsx'
 
 import skills from '../data/skills.json'
 
-export default function Header( { theme } ) {
+export default function Header( { lang, theme } ) {
     const contrastTheme = theme === 'dark' ? 'light' : 'dark'
 
     return (
         <div className="header">
-            <img src="/assets/foto-cv.jpg" alt="Foto CV" width="20%" height="20%"
+            <img src="/assets/cv-photo.jpg" alt="CV's Photo" width="20%" height="20%"
                  className="cv-photo" />
                  
             <div className="header-data">
@@ -23,7 +23,7 @@ export default function Header( { theme } ) {
                     </a>
                 </div>
 
-                <Skills data={skills} />
+                <Skills lang={lang} data={skills} />
             </div>
         </div>
     )

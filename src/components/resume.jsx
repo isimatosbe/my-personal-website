@@ -5,13 +5,13 @@ import experience from '../data/experience.json'
 import education from '../data/education.json'
 import certifications from '../data/certifications.json'
 
-export default function Resume() {
+export default function Resume({ lang }) {
     return (
         <>
-            <AboutMe />
-            <Section key="Experience" title="Experience" data={experience} />	
-            <Section key="Education" title="Education" data={education} />
-            <Section key="Certifications" title="Certifications" data={certifications} />        
+            <AboutMe lang={lang} />
+            <Section lang={lang} key="Experience" title="Experience" data={experience} />	
+            <Section lang={lang} key="Education" title="Education" data={education} />
+            <Section lang={lang} key="Certifications" title="Certifications" data={certifications} />        
         </>
     )
 }
