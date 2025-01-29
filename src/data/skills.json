@@ -2,48 +2,48 @@
     {
         "description": 
             {
-                "en-US": "Python",
-                "es-ES": "Python"
+                "en": "Python",
+                "es": "Python"
             },
         "level": 4,
         "category": "Programming Language"
     },
     {
         "description": {
-            "en-US": "SQL",
-            "es-ES": "SQL"
+            "en": "SQL",
+            "es": "SQL"
         },
         "level": 4,
         "category": "Programming Language"
     },
     {
         "description": {
-            "en-US": "PowerBI",
-            "es-ES": "PowerBI"
+            "en": "PowerBI",
+            "es": "PowerBI"
         },
         "level": 4,
         "category": "Programming Language"
     },
     {
         "description": {
-            "en-US": "MatLab",
-            "es-ES": "MatLab"
+            "en": "MatLab",
+            "es": "MatLab"
         },
         "level": 3,
         "category": "Programming Language"
     },
     {
         "description": {
-            "en-US": "Spanish",
-            "es-ES": "Español"
+            "en": "Spanish",
+            "es": "Español"
         },
         "level": 5,
         "category": "Language"
     },
     {
         "description": {
-            "en-US": "English",
-            "es-ES": "Inglés"
+            "en": "English",
+            "es": "Inglés"
         },
         "level": 4,
         "category": "Language"

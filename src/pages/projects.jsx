@@ -5,38 +5,38 @@ import projects from '../data/projects.json'
 export default function Projects({ lang }) {
 
     const sortedProjects = 
-        projects.sort((a, b) => new Date(a.startingDate) <= new Date(b.startingDate) ? 1 : -1)
+        projects["data"].sort((a, b) => new Date(a.startingDate) <= new Date(b.startingDate) ? 1 : -1)
 
     const underDevelopment = sortedProjects.filter( project => project.live)
     const finishedProjects = sortedProjects.filter( project => !project.live)
 
     return (
         <>
-            <h2 className="bold">Projects</h2>
+            <h2 className="bold">{projects["title"][lang]}</h2>
             <hr />
-            <p>This section of the website will serve as a showcase of some projects I deem interesting to showcase. The page will be divided in the projects I have already finished, or I am no longer working on, and those of them that I am actively working on. In the future I might even add a section for dropped projects.</p>
-            <h3 className='semi-bold'>Under Development</h3>
+            <p>{projects["description"][lang]}</p>
+            <h3 className='semi-bold'>{projects["sections"][lang]["under-development"]}</h3>
             <ul>
                 {underDevelopment.map( project =>
                     <Project
-                        key={project.title}
-                        title={project.title} 
-                        url={project.url} 
+                        key={project[lang]["title"]}
+                        title={project[lang]["title"]} 
+                        url={project.url}
                         tags={project.tags} 
-                        description={project.description} />
+                        description={project[lang]["description"]} />
                 )}
             </ul>
 
-            <h3 className='semi-bold'>Finished</h3>
+            <h3 className='semi-bold'>{projects["sections"][lang]["finished"]}</h3>
             <ul>
                 {finishedProjects.map( project =>
                     <Project
-                        key={project.title}
-                        title={project.title} 
-                        url={project.url} 
+                        key={project[lang]["title"]}
+                        title={project[lang]["title"]} 
+                        url={project.url}
                         tags={project.tags} 
-                        description={project.description} />
-                )}
+                        description={project[lang]["description"]} />
+            )}
             </ul>
         </>
     )

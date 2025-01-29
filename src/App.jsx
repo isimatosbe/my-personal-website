@@ -13,11 +13,11 @@ import useLocalStorage from "use-local-storage";
 
 export default function App() {
     const languageDetector = new LanguageDetector();
-    const defaultLanguage = languageDetector.detect();
+    const defaultLanguage = languageDetector.detect().slice(0, 2);
     const [lang, setLang] = useLocalStorage("lang", defaultLanguage);
 
     const switchLang = () => {
-        const newLang = lang === 'en-US' ? 'es-ES' : 'en-US';
+        const newLang = lang === 'en' ? 'es' : 'en';
         setLang(newLang);
     }
 
@@ -32,7 +32,7 @@ export default function App() {
     return (
         <div className="app" data-theme={theme}>
             <BrowserRouter>
-                <button onClick={switchLang} className="langButton">{lang === 'en-US' ? 'Español' : 'English'}</button>
+                <button onClick={switchLang} className="langButton">{lang === 'en' ? 'Español' : 'English'}</button>
                 <NavBar lang={lang} />
                 <Header lang={lang} theme={theme} />
     

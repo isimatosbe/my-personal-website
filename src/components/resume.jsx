@@ -9,9 +9,9 @@ export default function Resume({ lang }) {
     return (
         <>
             <AboutMe lang={lang} />
-            <Section lang={lang} key="Experience" title="Experience" data={experience} />	
-            <Section lang={lang} key="Education" title="Education" data={education} />
-            <Section lang={lang} key="Certifications" title="Certifications" data={certifications} />        
+            <Section lang={lang} key={experience["title"][lang]} title={experience["title"][lang]} data={experience["data"]} />	
+            <Section lang={lang} key={education["title"][lang]} title={education["title"][lang]} data={education["data"]} />
+            <Section lang={lang} key={certifications["title"][lang]} title={certifications["title"][lang]} data={certifications["data"]} />        
         </>
     )
 }

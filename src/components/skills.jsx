@@ -29,7 +29,7 @@ export default function Skills ({ lang, data }) {
             {data.map( (skill) => 
                 <Skill
                     lang={lang}
-                    key={skill.description}
+                    key={skill.description[lang]}
                     description={skill.description[lang]}
                     level={skill.level}
                     category={skill.category}

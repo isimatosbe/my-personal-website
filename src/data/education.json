@@ -1,16 +1,36 @@
-[
-    {
-        "organization": "University of Seville",
-        "description": "Master's degree on Logic, Computer Science and AI",
-        "startingDate": "2021-10-01",
-        "endingDate": "2022-09-01",
-        "averageGrade": "Average Grade: 9.66"
+{
+    "title": {
+        "en": "Education",
+        "es": "Educación"
     },
-    {
-        "organization": "University of Seville",
-        "description": "Mathematics degree",
-        "startingDate": "2017-09-01",
-        "endingDate": "2021-07-01",
-        "averageGrade":  "Average Grade: 7.28"
-    }
-]
+    "data": [
+        {
+            "en": {
+                "organization": "University of Seville",
+                "description": "Master's degree on Logic, Computer Science and AI",
+                "remark": "Average Grade: 9.66"
+            },
+            "es": {
+                "organization": "Universidad de Sevilla",
+                "description": "Máster Universitario en Lógica, Computación e IA",
+                "remark": "Nota Media: 9.66"
+            },
+            "startingDate": "2021-10-01",
+            "endingDate": "2022-09-01"        
+        },
+        {
+            "en": {
+                "organization": "University of Seville",
+                "description": "Mathematics degree",
+                "remark": "Average Grade: 7.28"
+            },
+            "es": {
+                "organization": "Universidad de Sevilla",
+                "description": "Grado en Matemáticas",
+                "remark": "Nota Media: 7.28"
+            },
+            "startingDate": "2017-09-01",
+            "endingDate": "2021-07-01"
+        }
+    ]
+}

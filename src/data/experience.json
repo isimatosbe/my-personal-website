@@ -1,20 +1,44 @@
-[
-    {
-        "organization": "Telefónica de España",
-        "startingDate": "2023-07-01",
-        "endingDate": null,
-        "description": "Planification and Digitalization at the Basic Infrastructures Department"
+{
+    "title": {
+        "en": "Experience",
+        "es": "Experiencia"
     },
-    {
-        "organization": "Telefónica de España",
-        "startingDate": "2022-08-01",
-        "endingDate": "2023-06-01",
-        "description": "Talentum Internship"
-    },
-    {
-        "organization": "University of Huelva",
-        "startingDate": "2022-04-01",
-        "endingDate": "2022-08-01",
-        "description": "Acting Substitute Teacher at the Integrated Science Department"
-    }
-]
+    "data": [
+        {
+            "en": {
+                "organization": "Telefónica de España",
+                "description": "Planification and Digitalization at the Basic Infrastructures Department"
+            },
+            "es": {
+                "organization": "Telefónica de España",
+                "description": "Planificación y Digitalización Infraestructuras Básicas"
+            },
+            "startingDate": "2023-07-01",
+            "endingDate": null        
+        },
+        {
+            "en": {
+                "organization": "Telefónica de España",
+                "description": "Talentum Internship"
+            },
+            "es": {
+                "organization": "Telefónica de España",
+                "description": "Becario Talentum"
+            },
+            "startingDate": "2022-08-01",
+            "endingDate": "2023-06-01"        
+        },
+        {
+            "en": {
+                "organization": "University of Huelva",
+                "description": "Acting Substitute Teacher at the Integrated Science Department"
+            },
+            "es": {
+                "organization": "Universidad de Huelva",
+                "description": "Profesor Substituto Interino en el departamento de Ciencias Integradas"
+            },
+            "startingDate": "2022-04-01",
+            "endingDate": "2022-08-01"        
+        }
+    ]
+}

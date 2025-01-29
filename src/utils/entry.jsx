@@ -1,7 +1,7 @@
-function getDates(startingDate, endingDate) {
+function getDates(lang, startingDate, endingDate) {
     const begin = 
         typeof startingDate === 'undefined' ? '' :
-        new Intl.DateTimeFormat('en-US', {
+        new Intl.DateTimeFormat(lang === 'en' ? 'en-US' : 'es-ES', {
             'year': 'numeric',
             'month': 'long'
         }).format(new Date(startingDate))
@@ -11,7 +11,7 @@ function getDates(startingDate, endingDate) {
         (
             endingDate === null ? ' - Present' :
             ' - ' +
-            new Intl.DateTimeFormat('en-US', {
+            new Intl.DateTimeFormat(lang === 'en' ? 'en-US' : 'es-ES', {
                     'year': 'numeric',
                     'month': 'long'
                 }).format(new Date(endingDate))
@@ -22,12 +22,12 @@ function getDates(startingDate, endingDate) {
     )
 }
 
-export default function Entry({ description, startingDate, endingDate, organization, remarks }) {
+export default function Entry({ lang, description, startingDate, endingDate, organization, remarks }) {
     return (
         <div className="entry">
             <div key={description} className="entry-line" >
                 <p className="bold">{organization}</p>
-                <i>{getDates(startingDate, endingDate)}</i>
+                <i>{getDates(lang, startingDate, endingDate)}</i>
             </div>
             
             <div key={organization} className="entry-line" >

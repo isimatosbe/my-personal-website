@@ -1,26 +1,64 @@
-[
-    {
-        "title": "my-personal-website",
-        "url": "https://github.com/isimatosbe/my-personal-website",
-        "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
-        "description": "This is the code for my personal website, this one. The main objective of this is to perfect my web development skills and to have a place where I can show my projects and my resume.",
-        "startingDate": "2024/12/25",
-        "live": true
+{
+    "title": {
+        "en": "Projects",
+        "es": "Proyectos"
     },
-    {
-        "title": "aprendizaje-por-refuerzo",
-        "url": "https://github.com/isimatosbe/AprendizajePorRefuerzo",
-        "tags": ["Git", "Python", "AI"],
-        "description": "This is the applied part of my Master's Thesis. My thesis focused on Reinforcement Learning and its applications, in this repository I uploaded the code that I used to test the algorithms described in the main text.",
-        "startingDate": "2022/08/18",
-        "live": false
+    "description": {
+        "en": "This section of the website will serve as a showcase of some projects I deem interesting to showcase. The page will be divided in the projects I have already finished, or I am no longer working on, and those of them that I am actively working on. In the future I might even add a section for dropped projects.",
+        "es": "Prueba4"
     },
-    {
-        "title": "full-stack-open-isimatosbe",
-        "url": "https://github.com/isimatosbe/FullStackOpen-Isimatosbe",
-        "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
-        "description": "The code generated while following the Full Stack Open course by the University of Helsinki. This was my first approach to web development and it was a great experience.",
-        "startingDate": "2022/12/04",
-        "live": false
-    }
-]
+    "sections": {
+        "en": {
+            "finished": "Finished",
+            "under-development": "Under Development"
+        },
+        "es": {
+            "finished": "Finalizados",
+            "under-development": "En Desarrollo"
+        }
+    },
+    "data": [
+        {
+            "en": {
+                "title": "my-personal-website",
+                "description": "This is the code for my personal website, this one. The main objective of this is to perfect my web development skills and to have a place where I can show my projects and my resume."
+            },
+            "es": {
+                "title": "mi-pagina-web-personal",
+                "description": "Prueba1"
+            },        
+            "url": "https://github.com/isimatosbe/my-personal-website",
+            "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
+            "startingDate": "2024/12/25",
+            "live": true
+        },
+        {
+            "en": {
+                "title": "reinforcement-learning",
+                "description": "This is the applied part of my Master's Thesis. My thesis focused on Reinforcement Learning and its applications, in this repository I uploaded the code that I used to test the algorithms described in the main text."
+            },
+            "es": {
+                "title": "aprendizaje-por-refuerzo",
+                "description": "Prueba2"
+            }, 
+            "url": "https://github.com/isimatosbe/AprendizajePorRefuerzo",
+            "tags": ["Git", "Python", "AI"],
+            "startingDate": "2022/08/18",
+            "live": false
+        },
+        {
+            "en": {
+                "title": "full-stack-open-isimatosbe",
+                "description": "The code generated while following the Full Stack Open course by the University of Helsinki. This was my first approach to web development and it was a great experience."
+            },
+            "es": {
+                "title": "full-stack-open-isimatosbe",
+                "description": "Prueba3"
+            }, 
+            "url": "https://github.com/isimatosbe/FullStackOpen-Isimatosbe",
+            "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
+            "startingDate": "2022/12/04",
+            "live": false
+        }
+    ]
+}

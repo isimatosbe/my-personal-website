@@ -1,12 +1,12 @@
 export const levelDescrition = {
-    "en-US": {
+    "en": {
         1: "Learning",
         2: "Beginner",
         3: "Intermediate",
         4: "Advanced",
         5: "Expert"
     },
-    "es-ES": {
+    "es": {
         1: "Aprendiendo",
         2: "Principiante",
         3: "Intermedio",
@@ -16,11 +16,11 @@ export const levelDescrition = {
 }
 
 export const navBarItems = { 
-    'en-US': {
+    'en': {
         'home': 'Home',
         'projects': 'Projects'	
     },
-    'es-ES': {
+    'es': {
         'home': 'Inicio',
         'projects': 'Proyectos'	
     }
