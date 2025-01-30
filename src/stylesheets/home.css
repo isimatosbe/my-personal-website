@@ -164,3 +164,13 @@ p {
   width: 2.5rem;
   cursor: pointer;
 }
+
+.lang-switcher {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  height: 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin: auto 0;
+}

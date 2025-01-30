@@ -6,6 +6,7 @@ import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
 import ScrollToTop from './components/scrollToTop.jsx';
 import ThemeChanger from "./components/themeChanger.jsx";
+import LanguageChanger from "./components/languageChanger.jsx";
 
 import Home from './pages/home.jsx'
 import Projects from './pages/projects.jsx';
@@ -32,7 +33,6 @@ export default function App() {
     return (
         <div className="app" data-theme={theme}>
             <BrowserRouter>
-                <button onClick={switchLang} className="langButton">{lang === 'en' ? 'Español' : 'English'}</button>
                 <NavBar lang={lang} />
                 <Header lang={lang} theme={theme} />
     
@@ -42,6 +42,7 @@ export default function App() {
                 </Routes>
                 <ScrollToTop />
                 <ThemeChanger onClick={switchTheme} theme={theme} />
+                <LanguageChanger onClick={switchLang} lang={lang} />
                 <Footer lang={lang} />
             </BrowserRouter>
         </div>
