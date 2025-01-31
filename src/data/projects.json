@@ -10,11 +10,13 @@
     "sections": {
         "en": {
             "finished": "Finished",
-            "under-development": "Under Development"
+            "under-development": "Under Development",
+            "dropped": "Dropped"
         },
         "es": {
             "finished": "Finalizados",
-            "under-development": "En Desarrollo"
+            "under-development": "En Desarrollo",
+            "dropped": "Descartados"
         }
     },
     "data": [
@@ -30,7 +32,7 @@
             "url": "https://github.com/isimatosbe/my-personal-website",
             "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
             "startingDate": "2024/12/25",
-            "live": true
+            "status": "live"
         },
         {
             "en": {
@@ -44,7 +46,7 @@
             "url": "https://github.com/isimatosbe/AprendizajePorRefuerzo",
             "tags": ["Git", "Python", "AI"],
             "startingDate": "2022/08/18",
-            "live": false
+            "status": "finished"
         },
         {
             "en": {
@@ -58,7 +60,35 @@
             "url": "https://github.com/isimatosbe/FullStackOpen-Isimatosbe",
             "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
             "startingDate": "2022/12/04",
-            "live": false
+            "status": "finished"
+        },
+        {
+            "en": {
+                "title": "roguelike",
+                "description": "I got into roguelikes and the likes and decided it was a good idea to develop my own. I then stumbled across the RogueLike Tutorial from r/RoguelikeDev and decided to follow it. This is the result. I ended up dropping it for lack of time."
+            },
+            "es": {
+                "title": "roguelike",
+                "description": "Me empecé a interesar en los juegos de tipo roguelike y decidí que sería una buena idea desarrollar el mío propio. Descubrí el Tutorial de RogueLike de r/RoguelikeDev y decidí seguirlo. Este es el resultado. Finalmente, lo abandoné por falta de tiempo."
+            }, 
+            "url": "https://github.com/isimatosbe/roguelike",
+            "tags": ["Git", "Python"],
+            "startingDate": "2024/05/15",
+            "status": "dropped"
+        },
+        {
+            "en": {
+                "title": "holonomic-functions",
+                "description": "This is the applied part of my Bachelor's Thesis. The main objective of the project was being able to understand what a holonomic function is, studying its properties, as well as applying them in some examples. This repository contains the code I used to generate the examples."
+            },
+            "es": {
+                "title": "funciones-holónomas",
+                "description": "Esta es la parte aplicada de mi Trbaajo de Fin de Grado. El objetivo principal del proyecto era ser capaz de entender qué es una función holónoma, estudiar sus propiedades y aplicarlas en algunos ejemplos. Este repositorio contiene el código que utilicé para generar los ejemplos."
+            }, 
+            "url": "https://github.com/isimatosbe/FuncionesHolonomas",
+            "tags": ["Git", "Python"],
+            "startingDate": "2021/06/23",
+            "status": "finished"
         }
     ]
 }
