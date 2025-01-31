@@ -43,7 +43,7 @@ Screenshot of the website at v0.3
     - [x] Spanish Version
     - [x] Create color palette
     - [x] Footer
-    - [ ] Dropped projects
+    - [x] Dropped projects
 - v0.6: Making the web responsive
 - v0.7: Optimize building
 - v1.0: Making sure everything looks nice, clean and the information is correct. This will be the MVP. 

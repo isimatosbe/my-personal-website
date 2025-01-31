@@ -6,19 +6,23 @@ function getDates(lang, startingDate, endingDate) {
             'month': 'long'
         }).format(new Date(startingDate))
     
+    const beginFormat = (lang === 'en' || begin === '') ? begin : (begin[0].toUpperCase() + begin.slice(1).replace(' de', ''))
+
     const end = 
         typeof endingDate === 'undefined' ? '' :
         (
-            endingDate === null ? ' - Present' :
-            ' - ' +
+            endingDate === null ? (lang === "en" ? 'Present' : 'Actualidad') :
             new Intl.DateTimeFormat(lang === 'en' ? 'en-US' : 'es-ES', {
                     'year': 'numeric',
                     'month': 'long'
                 }).format(new Date(endingDate))
             )
+    
+    const endFormat = (lang === 'en' || end === '') ? end : (end[0].toUpperCase() + end.slice(1).replace(' de', ''))
+    console.log(endFormat)
 
     return (
-        begin + end
+        beginFormat + (end === '' ? '' : ' - ') + endFormat
     )
 }
 
