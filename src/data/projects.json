@@ -1,26 +1,94 @@
-[
-    {
-        "title": "my-personal-website",
-        "url": "https://github.com/isimatosbe/my-personal-website",
-        "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
-        "description": "This is the code for my personal website, this one. The main objective of this is to perfect my web development skills and to have a place where I can show my projects and my resume.",
-        "startingDate": "2024/12/25",
-        "live": true
+{
+    "title": {
+        "en": "Projects",
+        "es": "Proyectos"
     },
-    {
-        "title": "aprendizaje-por-refuerzo",
-        "url": "https://github.com/isimatosbe/AprendizajePorRefuerzo",
-        "tags": ["Git", "Python", "AI"],
-        "description": "This the applied part of my Master's Thesis. My thesis focused on Reinforcement Learning and its applications, in this repository I uploaded the code that I used to test the algorithms described in the main text.",
-        "startingDate": "2022/08/18",
-        "live": false
+    "description": {
+        "en": "This section of the website will serve as a showcase of some projects I deem interesting to showcase. The page will be divided in the projects I have already finished, or I am no longer working on, and those of them that I am actively working on. In the future I might even add a section for dropped projects.",
+        "es": "Esta sección de la página web servirá como una escaparte para mostrar algunos proyectos que considero interesantes. La página estará dividida en dos categorías, los proyectos que ya he finalizado o en los que ya no estoy trabajando, y aquellos en los que estoy trabajando activamente. En el futuro, es posible que incluso agregue una sección para proyectos descartados."
     },
-    {
-        "title": "full-stack-open-isimatosbe",
-        "url": "https://github.com/isimatosbe/FullStackOpen-Isimatosbe",
-        "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
-        "description": "The code generated while following the Full Stack Open course by the University of Helsinki. This was my first approach to web development and it was a great experience.",
-        "startingDate": "2022/12/04",
-        "live": false
-    }
-]
+    "sections": {
+        "en": {
+            "finished": "Finished",
+            "under-development": "Under Development",
+            "dropped": "Dropped"
+        },
+        "es": {
+            "finished": "Finalizados",
+            "under-development": "En Desarrollo",
+            "dropped": "Descartados"
+        }
+    },
+    "data": [
+        {
+            "en": {
+                "title": "my-personal-website",
+                "description": "This is the code for my personal website, this one. The main objective of this is to perfect my web development skills and to have a place where I can show my projects and my resume."
+            },
+            "es": {
+                "title": "mi-pagina-web-personal",
+                "description": "Este es el código de mi página web personal, esta. El objetivo principal es perfeccionar mis habilidades en el desarrollo web y contar con un espacio donde pueda mostrar mis proyectos y mi currículum."
+            },        
+            "url": "https://github.com/isimatosbe/my-personal-website",
+            "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
+            "startingDate": "2024/12/25",
+            "status": "live"
+        },
+        {
+            "en": {
+                "title": "reinforcement-learning",
+                "description": "This is the applied part of my Master's Thesis. My thesis focused on Reinforcement Learning and its applications, in this repository I uploaded the code that I used to test the algorithms described in the main text."
+            },
+            "es": {
+                "title": "aprendizaje-por-refuerzo",
+                "description": "Esta es la parte aplicada de mi trabajo de fin de máster. Este trabajo se centró en el aprendizaje por refuerzo y sus aplicaciones. En este repositorio, he subido el código que utilicé para probar los algoritmos descritos en el texto principal."
+            }, 
+            "url": "https://github.com/isimatosbe/AprendizajePorRefuerzo",
+            "tags": ["Git", "Python", "AI"],
+            "startingDate": "2022/08/18",
+            "status": "finished"
+        },
+        {
+            "en": {
+                "title": "full-stack-open-isimatosbe",
+                "description": "The code generated while following the Full Stack Open course by the University of Helsinki. This was my first approach to web development and it was a great experience."
+            },
+            "es": {
+                "title": "full-stack-open-isimatosbe",
+                "description": "Este repositorio recoge el código generado mientras seguía el curso Full Stack Open de la Universidad de Helsinki. Esta fue mi primera incursión en el desarrollo web y resultó ser una experiencia excelente."
+            }, 
+            "url": "https://github.com/isimatosbe/FullStackOpen-Isimatosbe",
+            "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
+            "startingDate": "2022/12/04",
+            "status": "finished"
+        },
+        {
+            "en": {
+                "title": "roguelike",
+                "description": "I got into roguelikes and the likes and decided it was a good idea to develop my own. I then stumbled across the RogueLike Tutorial from r/RoguelikeDev and decided to follow it. This is the result. I ended up dropping it for lack of time."
+            },
+            "es": {
+                "title": "roguelike",
+                "description": "Me empecé a interesar en los juegos de tipo roguelike y decidí que sería una buena idea desarrollar el mío propio. Descubrí el Tutorial de RogueLike de r/RoguelikeDev y decidí seguirlo. Este es el resultado. Finalmente, lo abandoné por falta de tiempo."
+            }, 
+            "url": "https://github.com/isimatosbe/roguelike",
+            "tags": ["Git", "Python"],
+            "startingDate": "2024/05/15",
+            "status": "dropped"
+        },
+        {
+            "en": {
+                "title": "holonomic-functions",
+                "description": "This is the applied part of my Bachelor's Thesis. The main objective of the project was being able to understand what a holonomic function is, studying its properties, as well as applying them in some examples. This repository contains the code I used to generate the examples."
+            },
+            "es": {
+                "title": "funciones-holónomas",
+                "description": "Esta es la parte aplicada de mi Trbaajo de Fin de Grado. El objetivo principal del proyecto era ser capaz de entender qué es una función holónoma, estudiar sus propiedades y aplicarlas en algunos ejemplos. Este repositorio contiene el código que utilicé para generar los ejemplos."
+            }, 
+            "url": "https://github.com/isimatosbe/FuncionesHolonomas",
+            "tags": ["Git", "Python"],
+            "startingDate": "2021/06/23",
+            "status": "finished"
+        }
+    ]
+}

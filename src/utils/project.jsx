@@ -1,6 +1,6 @@
 import Tag from './tag'
 
-export default function Project ( { title, url, tags, description, live } ) { 
+export default function Project ( { title, url, tags, description } ) { 
     return (
         <div>
             <div style={{display: 'flex', justifyContent: 'flex-start', columnGap: '0.2rem', alignItems: 'baseline'}}>

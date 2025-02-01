@@ -1,16 +1,13 @@
 import '../stylesheets/home.css'
+import '../stylesheets/colors.css'
 
-import Header from '../components/header.jsx'
 import Resume from '../components/resume.jsx'
-import NavBar from '../components/navBar.jsx'
 
-export default function Home() {
+export default function Home({ lang }) {
   
   return (
     <>
-      <NavBar />
-      <Header />
-      <Resume />
+      <Resume lang={lang} />
     </>
   )
 }

@@ -1,22 +1,53 @@
-[
-    {
-        "organization": "Microsoft",
-        "description": "Microsoft Certified: Azure Data Fundamentals",
-        "startingDate": "2023-01-01" 
+{
+    "title": {
+        "en": "Certifications",
+        "es": "Certificaciones"
     },
-    {
-        "organization": "Microsoft",
-        "description": "Microsoft Certified: Azure AI Fundamentals",
-        "startingDate": "2021-07-01" 
-    },
-    {
-        "organization": "Microsoft",
-        "description": "Microsoft Certified: Power Platform Fundamentals",
-        "startingDate": "2021-02-01" 
-    },
-    {
-        "organization": "Cambridge Assessment English",
-        "description": "First Certificate in English (B2)",
-        "startingDate": "2016-06-01" 
-    }
-]
+    "data": [
+        {
+            "en": {
+                "organization": "Microsoft",
+                "description": "Microsoft Certified: Azure Data Fundamentals"
+            },
+            "es": {
+                "organization": "Microsoft",
+                "description": "Microsoft Certified: Azure Data Fundamentals"
+            },
+            "startingDate": "2023-01-01" 
+        },
+        {
+            "en": {
+                "organization": "Microsoft",
+                "description": "Microsoft Certified: Azure AI Fundamentals"
+            },
+            "es": {
+                "organization": "Microsoft",
+                "description": "Microsoft Certified: Azure AI Fundamentals"
+            },
+            "startingDate": "2021-07-01" 
+        },
+        {
+            "en": {
+                "organization": "Microsoft",
+                "description": "Microsoft Certified: Power Platform Fundamentals"
+            },
+            "es": {
+                "organization": "Microsoft",
+                "description": "Microsoft Certified: Power Platform Fundamentals"
+    
+            },
+            "startingDate": "2021-02-01" 
+        },
+        {
+            "en": {
+                "organization": "Cambridge Assessment English",
+                "description": "First Certificate in English (B2)"
+            },
+            "es": {
+                "organization": "Cambridge Assessment English",
+                "description": "First Certificate in English (B2)"
+            },
+            "startingDate": "2016-06-01" 
+        }
+    ]
+}

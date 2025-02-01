@@ -1,6 +1,6 @@
 import Entry from './entry.jsx'
 
-export default function Section({ title, data }) {
+export default function Section({ lang, title, data }) {
     const sortedData = 
         data.sort((a, b) => new Date(a.startingDate) <= new Date(b.startingDate) ? 1 : -1)
 
@@ -10,12 +10,13 @@ export default function Section({ title, data }) {
             <hr />
             {sortedData.map( entry => 
                 <Entry 
-                    key={entry.description}
-                    description={entry.description} 
+                    lang={lang}
+                    key={entry[lang]["description"]}
+                    description={entry[lang]["description"]} 
                     startingDate={entry.startingDate}
                     endingDate={entry.endingDate}
-                    organization={entry.organization}
-                    remarks={entry.averageGrade}
+                    organization={entry[lang]["organization"]}
+                    remarks={entry[lang]["remark"]}
                     />
                 )
             }

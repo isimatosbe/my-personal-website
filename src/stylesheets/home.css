@@ -1,8 +1,8 @@
-#root {
-  max-width: 1280px;
+.app {
+  color: var(--text-primary);
+  background-color: var(--background);
   margin: 0 auto;
-  padding: 0 2rem 2rem 2rem;
-  background-color: #fff;
+  min-height: 100vh;
 }
 
 hr {
@@ -23,18 +23,25 @@ p {
 
 .header {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
+}
+
+.header-data {
+  display: flex;
+  flex-direction: column;
 }
 
 .cv-photo {
   max-width: 100%;
   max-height: 100%;
   border-radius: 35%;
+  margin: auto;
 }
 
 .socials {
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .entry {
@@ -52,7 +59,7 @@ p {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: auto;
   column-gap: 1rem;
   row-gap: 0.5rem;
 }
@@ -89,36 +96,34 @@ p {
   display: flex;
   justify-content: flex-end;
   column-gap: 1rem;
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .navBar-item {
   height: 2rem;
   width: 7.5rem;
-  background-color: white;
+  background-color: var(--background);
   border-radius: 3rem;
-  border: 0.125rem solid #4E8FDF;
-
+  border: 0.125rem solid var(--accent);
   text-align: center;
   line-height: 2rem;
   font-size: 1rem;
-  color: black;
+  color: var(--text-primary);
 }
 
 .navBar-item:hover {
-  box-shadow: 0 0 10px #08324e;
+  box-shadow: 0 0 10px var(--accent-shadow);
   text-decoration-line: none;
   color: inherit;
 }
 
 .navBar-item.active {
-  background-color: #4E8FDF;
-  color: white;
+  background-color: var(--accent);
+  color: var(--text-secondary);
 }
 
 .code {
-    /*background-color: #EEEEEE;*/
-    color: #213547;
+    color: var(--text-primary);
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 }
 
@@ -129,7 +134,43 @@ p {
 .tag {
   padding: .1rem .5rem .2rem .5rem;
   border-radius: .4rem;
-  background: #222e2f;
-  color: #fff;
   font-weight: 550;
+  background-color: var(--text-primary);
+  color: var(--text-secondary);
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: var(--accent);
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+}
+
+.theme-changer {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  color: var(--text-primary);
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+.lang-switcher {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  height: 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin: auto 0;
 }
