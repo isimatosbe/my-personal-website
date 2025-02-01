@@ -35,8 +35,10 @@ Screenshot of the website at v0.3
     - [x] Menu: Option to move between sections (My first idea was to display it as a folder with the sections marked in the right side of the website).
     - [x] Projects section: Submenu to showcase new projects I start. The first thing to add is a history of this website with every version avaliable.
 
-![Screenshot v0.4 Home](/src/imgs/history/v0.4%20-%20Home.png)
-![Screenshot v0.4 Projects](/src/imgs/history/v0.4%20-%20Projects.png)
+v0.4 Home | v0.4 Projects
+:-------------------------:|:-------------------------:
+![Screenshot v0.4 Home](/src/imgs/history/v0.4%20-%20Home.png) | ![Screenshot v0.4 Projects](/src/imgs/history/v0.4%20-%20Projects.png)
+
 - v0.5: Finishing touches:
     - [x] Up Arrow to move back up
     - [x] Dark Mode
@@ -44,7 +46,19 @@ Screenshot of the website at v0.3
     - [x] Create color palette
     - [x] Footer
     - [x] Dropped projects
+
+v0.5 Home English Light | v0.5 Projects Spanish Dark
+:-------------------------:|:-------------------------:
+![Screenshot v0.5 Home English Light](/src/imgs/history/v0.5%20-%20Home%20-%20Eng%20-%20Light.png) | ![v0.5 Projects Spanish Dark](/src/imgs/history/v0.5%20-%20Projects%20-%20Spa%20-%20Dark.png)
+
+v0.5 Home Footer English Dark | v0.5 Projects Footer Spanish Dark
+:-------------------------:|:-------------------------:
+![Screenshot v0.5 Home Footer English Dark](/src/imgs/history/v0.5%20-%20Footer%20-%20Eng%20-%20Dark.png) | ![Screenshot v0.5 Projects Footer Spanish Dark](/src/imgs/history/v0.5%20-%20Footer%20-%20Spa%20-%20Light.png)
+
 - v0.6: Making the web responsive
+    - [] Laptop
+    - [] Mobile
+    - [] Tablet
 - v0.7: Optimize building
 - v1.0: Making sure everything looks nice, clean and the information is correct. This will be the MVP. 
 - v2.0: Learning TypeScript and updating the website to TS.
