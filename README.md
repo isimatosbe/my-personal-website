@@ -56,11 +56,14 @@ v0.5 Home Footer English Dark | v0.5 Projects Footer Spanish Dark
 ![Screenshot v0.5 Home Footer English Dark](/src/imgs/history/v0.5%20-%20Footer%20-%20Eng%20-%20Dark.png) | ![Screenshot v0.5 Projects Footer Spanish Dark](/src/imgs/history/v0.5%20-%20Footer%20-%20Spa%20-%20Light.png)
 
 - v0.6: Making the web responsive
-    - [] Laptop
-    - [] Mobile
-    - [] Tablet
+    - [ ] Laptop
+    - [ ] Mobile
+    - [ ] Tablet
 - v0.7: Optimize building
 - v1.0: Making sure everything looks nice, clean and the information is correct. This will be the MVP. 
+- v1.1: Projects search option
+    - [ ] Search bar
+    - [ ] Skill button to search
 - v2.0: Learning TypeScript and updating the website to TS.
 
 Initial mockup for the MVP:
