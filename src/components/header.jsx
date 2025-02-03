@@ -15,11 +15,19 @@ export default function Header( { lang, theme } ) {
 
                 <div className="socials">
                     <a href="https://github.com/isimatosbe">
-                        <img src={"/assets/logos/GitHub_Lockup_" + contrastTheme + ".svg"} alt="GitHub's Logo" width="125px" />
+                        <img 
+                            className="logo"
+                            src={"/assets/logos/GitHub_Lockup_" + contrastTheme + ".svg"} 
+                            alt="GitHub's Logo" 
+                            height="30px" />
                     </a>
                     
                     <a href="https://www.linkedin.com/in/isimatosbe">
-                        <img src={"/assets/logos/LinkedIn-" + contrastTheme + ".png"} alt="LinkedIn's Logo" width="125px" />                
+                        <img 
+                            className="logo"
+                            src={"/assets/logos/LinkedIn-" + contrastTheme + ".png"} 
+                            alt="LinkedIn's Logo" 
+                            height="30px" />                
                     </a>
                 </div>
 

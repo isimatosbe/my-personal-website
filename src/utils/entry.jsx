@@ -19,7 +19,6 @@ function getDates(lang, startingDate, endingDate) {
             )
     
     const endFormat = (lang === 'en' || end === '') ? end : (end[0].toUpperCase() + end.slice(1).replace(' de', ''))
-    console.log(endFormat)
 
     return (
         beginFormat + (end === '' ? '' : ' - ') + endFormat
