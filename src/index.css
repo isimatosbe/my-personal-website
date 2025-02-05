@@ -63,7 +63,6 @@ h1 {
   /* styles for devices with a maximum width of 1850px */
   /* 
     Things to fix:
-      Socials/Skills are big
   */
   .app {
     padding: 0 10% 0 10%;
@@ -79,7 +78,6 @@ h1 {
   /* styles for devices with a maximum width of 1366px */
   /* 
     Things to fix:
-      Skills are big
   */
   .app {
     background-color: yellow;
@@ -94,9 +92,6 @@ h1 {
   /* styles for devices with a maximum width of 1024px */
   /* 
     Things to fix:
-      Menú buttons are huge
-      Skills are huge
-      Theme switcher/language switcher/scroller are too big
       Name of projects splitted
   */
   .app {
@@ -108,15 +103,26 @@ h1 {
   h1 {
     font-size: 2em;
   }
+
+  .top-bar {
+    justify-content: space-between !important;
+  }
+
+  .theme-changer {
+    position: relative !important;
+    left: auto !important;
+  }
+
+  .lang-switcher {
+    position: relative !important;
+    right: auto !important;
+  }
 }
 
 @media (max-width: 768px) {
   /* styles for devices with a maximum width of 768px */
   /* 
     Things to fix:
-      Menú buttons are huge
-      Skills are huge
-      Theme switcher/language switcher/scroller are too big
       Name of projects splitted
   */
   .app {
@@ -133,14 +139,15 @@ h1 {
   /* styles for devices with a maximum width of 550px */
   /* 
     Things to fix:
-      Menú buttons are huge
-      Skills are huge
-      Theme switcher/language switcher/scroller are too big
       Text in sections gets splitted
       Name of projects splitted
       Tags of projects go over the edge
   */
   .app {
     background-color: red;
+  }
+
+  .navBar-item {
+    width: 6em !important;
   }
 }
