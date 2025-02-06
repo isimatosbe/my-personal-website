@@ -56,9 +56,10 @@ v0.5 Home Footer English Dark | v0.5 Projects Footer Spanish Dark
 ![Screenshot v0.5 Home Footer English Dark](/src/imgs/history/v0.5%20-%20Footer%20-%20Eng%20-%20Dark.png) | ![Screenshot v0.5 Projects Footer Spanish Dark](/src/imgs/history/v0.5%20-%20Footer%20-%20Spa%20-%20Light.png)
 
 - v0.6: Making the web responsive
-    - [ ] Laptop
-    - [ ] Mobile
-    - [ ] Tablet
+    - [x] Top Bar: NavBar, theme changer & language changer
+    - [x] Header: Photo, name and skills
+    - [x] Home: Descriptions and remarks get mixed
+    - [x] Projects: Text and name of projects get splitted and tags go over the edge
     - [ ] Upgrading Footer
         - [ ] Left part theme changer
         - [ ] Center socials

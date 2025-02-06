@@ -57,13 +57,12 @@ h1 {
   background-color: aqua;
   max-width: 1480px;
   padding: 0 calc((100vw - 1480px) / 2);
+
+  --small-screen: 0;
 }
 
 @media (max-width: 1850px) {
   /* styles for devices with a maximum width of 1850px */
-  /* 
-    Things to fix:
-  */
   .app {
     padding: 0 10% 0 10%;
     background-color: orange;
@@ -76,9 +75,6 @@ h1 {
 
 @media (max-width: 1366px) {
   /* styles for devices with a maximum width of 1366px */
-  /* 
-    Things to fix:
-  */
   .app {
     background-color: yellow;
   }
@@ -90,10 +86,6 @@ h1 {
 
 @media (max-width: 1024px) {
   /* styles for devices with a maximum width of 1024px */
-  /* 
-    Things to fix:
-      Name of projects splitted
-  */
   .app {
     padding: 0 5% 0 5%;
     font-size: 1rem;
@@ -121,13 +113,10 @@ h1 {
 
 @media (max-width: 768px) {
   /* styles for devices with a maximum width of 768px */
-  /* 
-    Things to fix:
-      Name of projects splitted
-  */
   .app {
     font-size: 0.75rem;
     background-color: blue;
+    --small-screen: 1;
   }
 
   h1 {
@@ -137,12 +126,6 @@ h1 {
 
 @media (max-width: 550px) {
   /* styles for devices with a maximum width of 550px */
-  /* 
-    Things to fix:
-      Text in sections gets splitted
-      Name of projects splitted
-      Tags of projects go over the edge
-  */
   .app {
     background-color: red;
   }

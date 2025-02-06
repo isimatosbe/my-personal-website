@@ -35,7 +35,7 @@ export default function Entry({ lang, description, startingDate, endingDate, org
             
             <div key={organization} className="entry-line" >
                 <p>{description}</p>
-                <i>{remarks}</i>
+                <i className="entry-remark">{remarks}</i>
             </div>
         </div>
     )

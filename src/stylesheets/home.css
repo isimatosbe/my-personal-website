@@ -63,6 +63,11 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  column-gap: 2em;
+}
+
+.entry-remark {
+  flex-shrink: 0;
 }
 
 .skill-container {
@@ -140,10 +145,19 @@ p {
   color: var(--text-secondary);
 }
 
+.project {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 0.2rem; 
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
 .code {
     color: var(--text-primary);
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
-}
+    margin-right: 0.25rem;
+  }
 
 .code:hover{
   color: inherit;
