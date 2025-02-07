@@ -1,6 +1,6 @@
 .app {
   color: var(--text-primary);
-  /*background-color: var(--background);*/
+  background-color: var(--background);
   margin: 0 auto;
   min-height: 100vh;
 }
@@ -154,13 +154,12 @@ p {
 }
 
 .code {
-    color: var(--text-primary);
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
     margin-right: 0.25rem;
   }
 
 .code:hover{
-  color: inherit;
+  color: var(--accent);
 }
 
 .tag {
@@ -185,6 +184,24 @@ p {
   text-align: center;
   font-size: 0.75rem;
   padding: 0.5rem;
+}
+
+.footer-links {
+  display: flex; 
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
+
+.footer-link {
+  display: flex;
+  column-gap: 0.5em;
+  align-items: baseline
+}
+
+.footer-active {
+  color: var(--accent);
 }
 
 .theme-changer {

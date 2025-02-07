@@ -60,10 +60,10 @@ v0.5 Home Footer English Dark | v0.5 Projects Footer Spanish Dark
     - [x] Header: Photo, name and skills
     - [x] Home: Descriptions and remarks get mixed
     - [x] Projects: Text and name of projects get splitted and tags go over the edge
-    - [ ] Upgrading Footer
-        - [ ] Left part theme changer
-        - [ ] Center socials
-        - [ ] Right part language switcher
+    - [x] Upgrading Footer
+        - [x] Left part theme changer
+        - [x] Center socials
+        - [x] Right part language switcher
 - v0.7: Optimize building
 - v1.0: Making sure everything looks nice, clean and the information is correct. This will be the MVP. 
 - v1.1: Projects search option

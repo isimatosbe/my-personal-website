@@ -36,10 +36,13 @@
 }
 
 a {
+  color: var(--text-primary);
   font-weight: 500;
   text-decoration: inherit;
 }
 a:hover {
+  cursor: pointer;
+  text-shadow: 0 0 10px var(--accent-shadow);
 }
 
 body {
@@ -54,7 +57,6 @@ h1 {
 }
 
 .app {
-  background-color: aqua;
   max-width: 1480px;
   padding: 0 calc((100vw - 1480px) / 2);
 
@@ -65,7 +67,6 @@ h1 {
   /* styles for devices with a maximum width of 1850px */
   .app {
     padding: 0 10% 0 10%;
-    background-color: orange;
   }
 
   h1 {
@@ -75,9 +76,6 @@ h1 {
 
 @media (max-width: 1366px) {
   /* styles for devices with a maximum width of 1366px */
-  .app {
-    background-color: yellow;
-  }
 
   h1 {
     font-size: 2.5em;
@@ -89,7 +87,6 @@ h1 {
   .app {
     padding: 0 5% 0 5%;
     font-size: 1rem;
-    background-color: green;
   }
 
   h1 {
@@ -115,7 +112,6 @@ h1 {
   /* styles for devices with a maximum width of 768px */
   .app {
     font-size: 0.75rem;
-    background-color: blue;
     --small-screen: 1;
   }
 
@@ -126,10 +122,6 @@ h1 {
 
 @media (max-width: 550px) {
   /* styles for devices with a maximum width of 550px */
-  .app {
-    background-color: red;
-  }
-
   .navBar-item {
     width: 6em !important;
   }

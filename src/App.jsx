@@ -46,7 +46,9 @@ export default function App() {
                     <Route path="/projects" element={<Projects lang={lang} />} />
                 </Routes>
                 <ScrollToTop />
-                <Footer lang={lang} />
+                <Footer 
+                    lang={lang} setLang={setLang}
+                    theme={theme} setTheme={setTheme} />
             </BrowserRouter>
         </div>
     )
