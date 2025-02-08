@@ -33,7 +33,12 @@ export default function App() {
     return (
         <div className="app" data-theme={theme}>
             <BrowserRouter>
-                <NavBar lang={lang} />
+                <div className="top-bar">
+                    <ThemeChanger onClick={switchTheme} theme={theme} />
+                    <NavBar lang={lang} />    
+                    <LanguageChanger onClick={switchLang} lang={lang} />
+                </div>
+                
                 <Header lang={lang} theme={theme} />
     
                 <Routes>
@@ -41,9 +46,9 @@ export default function App() {
                     <Route path="/projects" element={<Projects lang={lang} />} />
                 </Routes>
                 <ScrollToTop />
-                <ThemeChanger onClick={switchTheme} theme={theme} />
-                <LanguageChanger onClick={switchLang} lang={lang} />
-                <Footer lang={lang} />
+                <Footer 
+                    lang={lang} setLang={setLang}
+                    theme={theme} setTheme={setTheme} />
             </BrowserRouter>
         </div>
     )

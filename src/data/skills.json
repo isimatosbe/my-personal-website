@@ -47,5 +47,45 @@
         },
         "level": 4,
         "category": "Language"
+    },
+    {
+        "description": {
+            "en": "React",
+            "es": "React"
+        },
+        "level": 2,
+        "category": "Programming Language"  
+    },
+    {
+        "description": {
+            "en": "HTML",
+            "es": "HTML"
+        },
+        "level": 2,
+        "category": "Programming Language"  
+    },
+    {
+        "description": {
+            "en": "CSS",
+            "es": "CSS"
+        },
+        "level": 2,
+        "category": "Programming Language"  
+    },
+    {
+        "description": {
+            "en": "Git",
+            "es": "Git"
+        },
+        "level": 3,
+        "category": "Programming Language"  
+    },
+    {
+        "description": {
+            "en": "JavaScript",
+            "es": "JavaScript"
+        },
+        "level": 2,
+        "category": "Programming Language"  
     }
 ]
