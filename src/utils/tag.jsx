@@ -6,6 +6,15 @@ export default function Tag ( { tag }) {
     const name = tagInfo[cleanTag]
 
     return (
-        <span className="tag" style={{color: 'var(--' + lowerCaseName + '-color)', background: 'var(--' + lowerCaseName + '-bg)'}}>{"#" + ('Generic' === name ? tag : name)}</span>
+        <span 
+            className="tag" 
+            style={
+                {
+                    color: 'var(--' + lowerCaseName + '-color)', 
+                    background: 'var(--' + lowerCaseName + '-bg)'
+                }
+            } >
+                {"#" + ('Generic' === name ? tag : name)}
+        </span>
     )
 }

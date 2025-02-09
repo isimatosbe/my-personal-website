@@ -66,6 +66,10 @@ p {
   column-gap: 2em;
 }
 
+.entry-dates {
+  text-align: right;
+}
+
 .entry-remark {
   flex-shrink: 0;
 }
@@ -148,7 +152,8 @@ p {
 .project {
   display: flex;
   justify-content: flex-start;
-  column-gap: 0.2rem; 
+  column-gap: 0.2rem;
+  row-gap: 0.2rem;
   align-items: baseline;
   flex-wrap: wrap;
 }

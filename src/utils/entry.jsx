@@ -30,7 +30,7 @@ export default function Entry({ lang, description, startingDate, endingDate, org
         <div className="entry">
             <div key={description} className="entry-line" >
                 <p className="bold">{organization}</p>
-                <i>{getDates(lang, startingDate, endingDate)}</i>
+                <i className="entry-dates">{getDates(lang, startingDate, endingDate)}</i>
             </div>
             
             <div key={organization} className="entry-line" >
