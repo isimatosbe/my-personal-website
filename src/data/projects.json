@@ -11,12 +11,14 @@
         "en": {
             "finished": "Finished",
             "under-development": "Under Development",
-            "dropped": "Dropped"
+            "dropped": "Dropped",
+            "future": "Future"
         },
         "es": {
             "finished": "Finalizados",
             "under-development": "En Desarrollo",
-            "dropped": "Descartados"
+            "dropped": "Descartados",
+            "future": "Futuros"
         }
     },
     "data": [
@@ -32,7 +34,7 @@
             "url": "https://github.com/isimatosbe/my-personal-website",
             "tags": ["Git", "React", "HTML", "CSS", "JavaScript"],
             "startingDate": "2024/12/25",
-            "status": "live"
+            "status": "under-development"
         },
         {
             "en": {

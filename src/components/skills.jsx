@@ -29,7 +29,7 @@ export default function Skills ({ lang, data }) {
         data
             .filter( (skill) => skill.category === "Programming Language")
             .sort( (a, b) => a.level === b.level ? (a.description[lang] < b.description[lang] ? -1 : 1) : (a.level < b.level ? 1 : -1))
-    console.log(programmingData)
+
     const languageData = 
         data
             .filter( (skill) => skill.category === "Language")

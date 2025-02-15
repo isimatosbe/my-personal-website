@@ -73,7 +73,6 @@ v0.6 Home Experience English Dark on Galaxy Note 20 | v0.6 Projects English Ligh
 :-------------------------:|:-------------------------:
 ![Screenshot v0.6 Galaxy Note 20 Home English Dark](/src/imgs/history/v0.6%20-%20Galaxy%20Note%2020%20-%20Home%20-%20Eng%20-%20Dark.png) | ![Screenshot v0.6 800x915px Projects English Light](/src/imgs/history/v0.6%20-%20800x915px%20-%20Projects%20-%20Eng%20-%20Light.png)
 
-- v0.7: Optimize building
 - v1.0: Making sure everything looks nice, clean and the information is correct. This will be the MVP. 
 - v1.1: Projects search option
     - [ ] Search bar

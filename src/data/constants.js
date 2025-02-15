@@ -26,6 +26,13 @@ export const navBarItems = {
     }
 }
 
+export const projectSectionOrder = {
+    "under-development": 0,
+    "finished": 1,
+    "future": 2,
+    "dropped": 3
+}
+
 export const tagInfo = { 
     'git': 'Git',
     'react': 'React',
