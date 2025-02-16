@@ -33,7 +33,7 @@ Screenshot of the website at v0.3
 ![Screenshot v0.3](/src/imgs/history/v0.3.png)
 - v0.4: Menu & Projects section
     - [x] Menu: Option to move between sections (My first idea was to display it as a folder with the sections marked in the right side of the website).
-    - [x] Projects section: Submenu to showcase new projects I start. The first thing to add is a history of this website with every version avaliable.
+    - [x] Projects section: Submenu to showcase new projects I start. The first thing to add is a history of this website with every version available.
 
 v0.4 Home | v0.4 Projects
 :-------------------------:|:-------------------------:
@@ -59,7 +59,7 @@ v0.5 Home Footer English Dark | v0.5 Projects Footer Spanish Dark
     - [x] Top Bar: NavBar, theme changer & language changer
     - [x] Header: Photo, name and skills
     - [x] Home: Descriptions and remarks get mixed
-    - [x] Projects: Text and name of projects get splitted and tags go over the edge
+    - [x] Projects: Text and name of projects get split and tags go over the edge
     - [x] Upgrading Footer
         - [x] Left part theme changer
         - [x] Center socials
@@ -73,10 +73,14 @@ v0.6 Home Experience English Dark on Galaxy Note 20 | v0.6 Projects English Ligh
 :-------------------------:|:-------------------------:
 ![Screenshot v0.6 Galaxy Note 20 Home English Dark](/src/imgs/history/v0.6%20-%20Galaxy%20Note%2020%20-%20Home%20-%20Eng%20-%20Dark.png) | ![Screenshot v0.6 800x915px Projects English Light](/src/imgs/history/v0.6%20-%20800x915px%20-%20Projects%20-%20Eng%20-%20Light.png)
 
-- v1.0: Making sure everything looks nice, clean and the information is correct. This will be the MVP. 
+- ~~v0.7: Optimize building~~: Right now the website is very small, around 200kB of code, so I won't be needing any more optimizing. Part of this is because I have been building all the components instead of importing them. 
+- v1.0: This will be the MVP.
+    - [ ] Making sure everything looks nice, clean and the information is correct.
+    - [ ] Splitting CSS
 - v1.1: Projects search option
     - [ ] Search bar
     - [ ] Skill button to search
+- v1.2: Allowing the website to be downloaded as a CV in PDF.
 - v2.0: Learning TypeScript and updating the website to TS.
 
 Initial mockup for the MVP:

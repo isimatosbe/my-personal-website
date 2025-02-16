@@ -1,4 +1,4 @@
-import { tagInfo } from "../data/constants"
+import { tagInfo } from '../data/constants'
 
 export default function Tag ( { tag }) {
     const lowerCaseName = tag.toLowerCase()
@@ -14,7 +14,7 @@ export default function Tag ( { tag }) {
                     background: 'var(--' + lowerCaseName + '-bg)'
                 }
             } >
-                {"#" + ('Generic' === name ? tag : name)}
+                {'#' + ('Generic' === name ? tag : name)}
         </span>
     )
 }

@@ -1,6 +1,6 @@
-import { NavLink } from "react-router";
+import { NavLink } from 'react-router';
 
-import { navBarItems } from "../data/constants.js";
+import { navBarItems } from '../data/constants.js';
 
 export default function NavBar( { lang }) {
     return (

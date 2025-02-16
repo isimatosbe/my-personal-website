@@ -1,4 +1,4 @@
-import { MdLightMode, MdDarkMode } from "react-icons/md";
+import { MdLightMode, MdDarkMode } from 'react-icons/md';
 
 export default function ThemeChanger( { onClick, theme }) {
     return (

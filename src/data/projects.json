@@ -4,8 +4,8 @@
         "es": "Proyectos"
     },
     "description": {
-        "en": "This section of the website will serve as a showcase of some projects I deem interesting to showcase. The page will be divided in the projects I have already finished, or I am no longer working on, and those of them that I am actively working on. In the future I might even add a section for dropped projects.",
-        "es": "Esta sección de la página web servirá como una escaparte para mostrar algunos proyectos que considero interesantes. La página estará dividida en dos categorías, los proyectos que ya he finalizado o en los que ya no estoy trabajando, y aquellos en los que estoy trabajando activamente. En el futuro, es posible que incluso agregue una sección para proyectos descartados."
+        "en": "This section of the website will serve as a showcase of some projects I deem interesting to showcase. The page will be divided into the projects I have already finished, or I am no longer working on, and those that I am actively working on. In the future, I might even add a section for dropped projects.",
+        "es": "Esta sección de la página web servirá como un escaparate para mostrar algunos proyectos que considero interesantes. La página estará dividida en dos categorías, los proyectos que ya he finalizado o en los que ya no estoy trabajando, y aquellos en los que estoy trabajando activamente. En el futuro, es posible que incluso agregue una sección para proyectos descartados."
     },
     "sections": {
         "en": {
@@ -39,7 +39,7 @@
         {
             "en": {
                 "title": "reinforcement-learning",
-                "description": "This is the applied part of my Master's Thesis. My thesis focused on Reinforcement Learning and its applications, in this repository I uploaded the code that I used to test the algorithms described in the main text."
+                "description": "This is the applied part of my Master's Thesis. My thesis focused on Reinforcement Learning and its applications. In this repository, I uploaded the code that I used to test the algorithms described in the main text."
             },
             "es": {
                 "title": "aprendizaje-por-refuerzo",
@@ -81,11 +81,11 @@
         {
             "en": {
                 "title": "holonomic-functions",
-                "description": "This is the applied part of my Bachelor's Thesis. The main objective of the project was being able to understand what a holonomic function is, studying its properties, as well as applying them in some examples. This repository contains the code I used to generate the examples."
+                "description": "This is the applied part of my Bachelor's Thesis. The main objective of the project is to understand what a holonomic function is, study its properties, and apply them in some examples. This repository contains the code I used to generate the examples."
             },
             "es": {
                 "title": "funciones-holónomas",
-                "description": "Esta es la parte aplicada de mi Trbaajo de Fin de Grado. El objetivo principal del proyecto era ser capaz de entender qué es una función holónoma, estudiar sus propiedades y aplicarlas en algunos ejemplos. Este repositorio contiene el código que utilicé para generar los ejemplos."
+                "description": "Esta es la parte aplicada de mi Trabajo de Fin de Grado. El objetivo principal del proyecto era ser capaz de entender qué es una función holónoma, estudiar sus propiedades y aplicarlas en algunos ejemplos. Este repositorio contiene el código que utilicé para generar los ejemplos."
             }, 
             "url": "https://github.com/isimatosbe/FuncionesHolonomas",
             "tags": ["Git", "Python"],

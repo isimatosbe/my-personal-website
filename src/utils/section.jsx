@@ -11,12 +11,12 @@ export default function Section({ lang, title, data }) {
             {sortedData.map( entry => 
                 <Entry 
                     lang={lang}
-                    key={entry[lang]["description"]}
-                    description={entry[lang]["description"]} 
+                    key={entry[lang]['description']}
+                    description={entry[lang]['description']} 
                     startingDate={entry.startingDate}
                     endingDate={entry.endingDate}
-                    organization={entry[lang]["organization"]}
-                    remarks={entry[lang]["remark"]}
+                    organization={entry[lang]['organization']}
+                    remarks={entry[lang]['remark']}
                     />
                 )
             }

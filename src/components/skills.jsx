@@ -1,12 +1,12 @@
-import { levelDescrition } from "../data/constants"
+import { levelDescrition } from '../data/constants'
 
 function Skill ({ lang, description, level, category }) {
     const color = 
-        category === "Programming Language" ? "var(--accent)" :
-        category === "Language" ? "var(--language-skill)" : 
-        "var(--generic-skill)"
+        category === 'Programming Language' ? 'var(--accent)' :
+        category === 'Language' ? 'var(--language-skill)' : 
+        'var(--generic-skill)'
 
-    const colorArray = Array.from({length:5},(_,i)=>i < level ? color : "var(--grey-skill)" )
+    const colorArray = Array.from({length:5},(_,i)=>i < level ? color : 'var(--grey-skill)' )
 
     return (
         <div className="skill-line">
@@ -27,12 +27,12 @@ export default function Skills ({ lang, data }) {
 
     const programmingData = 
         data
-            .filter( (skill) => skill.category === "Programming Language")
+            .filter( (skill) => skill.category === 'Programming Language')
             .sort( (a, b) => a.level === b.level ? (a.description[lang] < b.description[lang] ? -1 : 1) : (a.level < b.level ? 1 : -1))
 
     const languageData = 
         data
-            .filter( (skill) => skill.category === "Language")
+            .filter( (skill) => skill.category === 'Language')
             .sort( (a, b) => a.level === b.level ? (a.description[lang] < b.description[lang] ? -1 : 1) : (a.level < b.level ? 1 : -1))
 
     data = [...programmingData, ...languageData]

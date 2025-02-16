@@ -16,13 +16,13 @@ export const levelDescrition = {
 }
 
 export const navBarItems = { 
-    'en': {
-        'home': 'Home',
-        'projects': 'Projects'	
+    "en": {
+        "home": "Home",
+        "projects": "Projects"	
     },
-    'es': {
-        'home': 'Inicio',
-        'projects': 'Proyectos'	
+    "es": {
+        "home": "Inicio",
+        "projects": "Proyectos"	
     }
 }
 
@@ -34,12 +34,12 @@ export const projectSectionOrder = {
 }
 
 export const tagInfo = { 
-    'git': 'Git',
-    'react': 'React',
-    'javascript': 'JavaScript',
-    'html': 'HTML',
-    'css': 'CSS',
-    'python': 'Python',
-    'ai': 'AI',
-    'generic': 'Generic'
+    "git": "Git",
+    "react": "React",
+    "javascript": "JavaScript",
+    "html": "HTML",
+    "css": "CSS",
+    "python": "Python",
+    "ai": "AI",
+    "generic": "Generic"
 }
