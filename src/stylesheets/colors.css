@@ -1,5 +1,19 @@
-body {
-  /* SPECIFIC COLORS*/
+:root {
+  /* MAIN COLORS - DEPENDING ON THE THEME */
+  --background: #ffffffde;
+  --text-primary: #121212;
+  --text-secondary: #ffffffde;
+  --accent: #4E8FDF;
+  --accent-shadow: #08324e;
+
+  /* GENERAL COLORS */
+  --white: #ffffffde;
+  --black: #121212;
+
+  --link: #646cff;
+  --link-hover: #535bf2;
+
+  /* SPECIFIC COLORS */
   /* SKILLS */
   --language-skill: #75B761;
   --generic-skill: #E45050;
@@ -20,4 +34,14 @@ body {
   --python-bg: #306998;
   --ai-color: var(--black);
   --ai-bg: #a5f8fb;
+}
+
+[data-theme='dark'] {
+  --background: #121212;
+  --text-primary: #ffffffde;
+  --text-secondary: #121212;
+  --accent: #4E8FDF;
+  --accent-shadow: #9bb8dc;
+  --git-color: #1B1F24;
+  --git-bg: var(--white);
 }

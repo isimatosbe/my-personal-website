@@ -75,11 +75,12 @@ v0.6 Home Experience English Dark on Galaxy Note 20 | v0.6 Projects English Ligh
 
 - ~~v0.7: Optimize building~~: Right now the website is very small, around 200kB of code, so I won't be needing any more optimizing. Part of this is because I have been building all the components instead of importing them. 
 - v1.0: This will be the MVP.
-    - [ ] Making sure everything looks nice, clean and the information is correct.
-    - [ ] Splitting CSS
+    - [x] Making sure everything looks nice, clean and the information is correct.
+    - [x] Splitting CSS
 - v1.1: Projects search option
     - [ ] Search bar
     - [ ] Skill button to search
+- v1.2: Using lazy and suspense for optimizing performance.
 - v1.2: Allowing the website to be downloaded as a CV in PDF.
 - v2.0: Learning TypeScript and updating the website to TS.
 

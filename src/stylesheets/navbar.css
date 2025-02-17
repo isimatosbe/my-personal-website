@@ -1,0 +1,39 @@
+/* Top Bar Styles */
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1em;
+  padding: 1em 0;
+}
+
+/* Navigation Bar Styles */
+.navBar {
+  display: flex;
+  gap: 1em;
+}
+
+/* Navigation Bar Item Styles */
+.navBar-item {
+  height: 2em;
+  width: 7.5em;
+  background-color: var(--background);
+  border-radius: 3rem;
+  border: 0.125rem solid var(--accent);
+  text-align: center;
+  line-height: 2em;
+  font-size: 1em;
+  color: var(--text-primary);
+}
+
+/* Navigation Bar Item Hover Styles */
+.navBar-item:hover {
+  box-shadow: 0 0 10px var(--accent-shadow);
+  text-decoration: none;
+}
+
+/* Active Navigation Bar Item Styles */
+.navBar-item.active {
+  background-color: var(--accent);
+  color: var(--text-secondary);
+}

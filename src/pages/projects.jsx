@@ -1,7 +1,7 @@
 import Project from '../utils/project.jsx'
 
 import projects from '../data/projects.json'
-import projectSectionOrder from '../data/constants.js'
+import { projectSectionOrder } from '../data/constants.js'
 
 function ProjectConstructor( { lang, list, name } ) {
     return (

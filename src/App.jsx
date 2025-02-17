@@ -1,16 +1,22 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import useLocalStorage from 'use-local-storage';
 
-import NavBar from './components/navBar.jsx';
-import Header from './components/header.jsx';
-import Footer from './components/footer.jsx';
-import ScrollToTop from './components/scrollToTop.jsx';
-import ThemeChanger from './components/themeChanger.jsx';
-import LanguageChanger from './components/languageChanger.jsx';
+import './stylesheets/base.css'
+import './stylesheets/body.css'
+import './stylesheets/buttons.css'
+import './stylesheets/navbar.css'
 
 import Home from './pages/home.jsx'
 import Projects from './pages/projects.jsx';
-import useLocalStorage from 'use-local-storage';
+
+import Footer from './components/layout/footer.jsx';
+import Header from './components/layout/header.jsx';
+import NavBar from './components/layout/navBar.jsx';
+
+import LanguageChanger from './components/common/languageChanger.jsx';
+import ScrollToTop from './components/common/scrollToTop.jsx';
+import ThemeChanger from './components/common/themeChanger.jsx';
 
 export default function App() {
     const languageDetector = new LanguageDetector();

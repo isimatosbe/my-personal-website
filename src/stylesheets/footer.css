@@ -1,0 +1,27 @@
+/* Footer Container Styles */
+.footer {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+}
+
+/* Footer Links Container Styles */
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+/* Individual Footer Link Styles */
+.footer-link {
+  display: flex;
+  gap: 0.5em;
+  align-items: baseline;
+}
+
+/* Active Footer Link Styles */
+.footer-active {
+  color: var(--accent);
+}

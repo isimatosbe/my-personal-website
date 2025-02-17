@@ -1,4 +1,4 @@
-import aboutMe from '../data/aboutMe.json'
+import aboutMe from '../../data/aboutMe.json'
 
 export default function AboutMe( { lang }) {
     return (

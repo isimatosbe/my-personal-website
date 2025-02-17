@@ -7,7 +7,7 @@ export default function Tag ( { tag }) {
 
     return (
         <span 
-            className="tag" 
+            className="tag semi-bold" 
             style={
                 {
                     color: 'var(--' + lowerCaseName + '-color)', 

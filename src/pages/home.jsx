@@ -1,7 +1,4 @@
-import '../stylesheets/home.css'
-import '../stylesheets/colors.css'
-
-import Resume from '../components/resume.jsx'
+import Resume from '../components/sections/resume.jsx'
 
 export default function Home({ lang }) {
   

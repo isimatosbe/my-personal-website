@@ -1,0 +1,26 @@
+/* Fixed Button Styles */
+.fixed-button {
+  position: fixed;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Scroll to Top Button Styles */
+.scroll-to-top {
+  bottom: 1rem;
+  right: 1rem;
+  color: var(--accent);
+}
+
+/* Theme Changer Button Styles */
+.theme-changer {
+  left: 1rem;
+  color: var(--text-primary);
+}
+
+/* Language Switcher Button Styles */
+.lang-switcher {
+  right: 1rem;
+}

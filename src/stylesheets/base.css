@@ -1,0 +1,44 @@
+.app {
+  color: var(--text-primary);
+  background-color: var(--background);
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+/* Paragraph Styles */
+p {
+  margin: 0.25em 0;
+}
+
+/* Horizontal Rule Styles */
+hr {
+  margin-top: 0;
+}
+
+/* Font Weight Styles */
+.bold {
+  font-weight: 650;
+}
+
+.semi-bold {
+  font-weight: 550;
+}
+
+/* Code Styles */
+.code {
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+  margin-right: 0.25rem;
+}
+
+a .code:hover {
+  color: var(--accent);
+}

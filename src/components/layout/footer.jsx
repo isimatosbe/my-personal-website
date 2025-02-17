@@ -1,4 +1,6 @@
-import rights from '../data/footer.json'
+import '../../stylesheets/footer.css'
+
+import rights from '../../data/footer.json'
 
 export default function Footer({ lang, theme, setTheme, setLang }) {
     return (

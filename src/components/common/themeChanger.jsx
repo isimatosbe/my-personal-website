@@ -5,8 +5,8 @@ export default function ThemeChanger( { onClick, theme }) {
         <>
             {
             theme === 'light' ? 
-                <MdDarkMode className="theme-changer" onClick={onClick} /> : 
-                <MdLightMode className="theme-changer" onClick={onClick} />
+                <MdDarkMode className="fixed-button theme-changer" onClick={onClick} /> : 
+                <MdLightMode className="fixed-button theme-changer" onClick={onClick} />
             }        
         </>
     )

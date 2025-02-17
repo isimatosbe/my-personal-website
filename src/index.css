@@ -1,18 +1,5 @@
+/* Root Variables and Global Styles */
 :root {
-  /* MAIN COLORS - DEPENDING ON THE THEME */
-  --background: #ffffffde;
-  --text-primary: #121212;
-  --text-secondary: #ffffffde;
-  --accent: #4E8FDF;
-  --accent-shadow: #08324e;
-
-  /* GENERAL COLORS */
-  --white: #ffffffde;
-  --black: #121212;
-
-  --link: #646cff;
-  --link-hover: #535bf2;
-
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -23,74 +10,80 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --font-size-h1: 3.2em;
+  --font-size-h1-1850: 3em;
+  --font-size-h1-1366: 2.5em;
+  --font-size-h1-1024: 2em;
+  --font-size-h1-768: 2.5em;
+  --font-size-body: 1rem;
+  --font-size-body-768: 0.75rem;
+  --padding-app: 0 calc((100vw - 1480px) / 2);
+  --padding-app-1850: 0 10%;
+  --padding-app-1024: 0 5%;
 }
 
-[data-theme='dark'] {
-  --background: #121212;
-  --text-primary: #ffffffde;
-  --text-secondary: #121212;
-  --accent: #4E8FDF;
-  --accent-shadow: #9bb8dc;
-  --git-color: #1B1F24;
-  --git-bg: var(--white);
-}
-
-a {
-  color: var(--text-primary);
-  font-weight: 500;
-  text-decoration: inherit;
-}
-a:hover {
-  cursor: pointer;
-  text-shadow: 0 0 10px var(--accent-shadow);
-}
-
+/* Body Styles */
 body {
   margin: 0;
   min-width: 320px;
 }
 
+/* Heading Styles */
 h1 {
-  font-size: 3.2em;
+  font-size: var(--font-size-h1);
   line-height: 1em;
   margin: 0.5rem 0;
 }
 
+/* Anchor Styles */
+a {
+  color: var(--text-primary);
+  text-decoration: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+  text-shadow: 0 0 10px var(--accent-shadow);
+}
+
+/* App Container Styles */
 .app {
   max-width: 1480px;
-  padding: 0 calc((100vw - 1480px) / 2);
+  padding: var(--padding-app);
 
   --small-screen: 0;
 }
 
+/* Media Queries */
+
+/* Styles for devices with a maximum width of 1850px */
 @media (max-width: 1850px) {
-  /* styles for devices with a maximum width of 1850px */
-  .app {
-    padding: 0 10% 0 10%;
+  h1 {
+    font-size: var(--font-size-h1-1850);
   }
 
-  h1 {
-    font-size: 3em;
+  .app {
+    padding: var(--padding-app-1850);
   }
 }
 
+/* Styles for devices with a maximum width of 1366px */
 @media (max-width: 1366px) {
-  /* styles for devices with a maximum width of 1366px */
-
   h1 {
-    font-size: 2.5em;
+    font-size: var(--font-size-h1-1366);
   }
 }
 
+/* Styles for devices with a maximum width of 1024px */
 @media (max-width: 1024px) {
-  /* styles for devices with a maximum width of 1024px */
-  .app {
-    padding: 0 5% 0 5%;
-    font-size: 1rem;
+  h1 {
+    font-size: var(--font-size-h1-1024);
   }
 
-  h1 {
-    font-size: 2em;
+  .app {
+    padding: var(--padding-app-1024);
+    font-size: var(--font-size-body);
   }
 
   .top-bar {
@@ -108,20 +101,20 @@ h1 {
   }
 }
 
+/* Styles for devices with a maximum width of 768px */
 @media (max-width: 768px) {
-  /* styles for devices with a maximum width of 768px */
-  .app {
-    font-size: 0.75rem;
-    --small-screen: 1;
+  h1 {
+    font-size: var(--font-size-h1-768);
   }
 
-  h1 {
-    font-size: 2.5em;
+  .app {
+    font-size: var(--font-size-body-768);
+    --small-screen: 1;
   }
 }
 
+/* Styles for devices with a maximum width of 550px */
 @media (max-width: 550px) {
-  /* styles for devices with a maximum width of 550px */
   .navBar-item {
     width: 6em !important;
   }

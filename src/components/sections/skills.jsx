@@ -1,4 +1,4 @@
-import { levelDescrition } from '../data/constants'
+import { levelDescrition } from '../../data/constants'
 
 function Skill ({ lang, description, level, category }) {
     const color = 

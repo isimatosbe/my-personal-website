@@ -1,9 +1,9 @@
-import AboutMe from './aboutMe.jsx'
-import Section from '../utils/section.jsx'
+import AboutMe from '../sections/aboutMe.jsx'
+import Section from '../../utils/section.jsx'
 
-import experience from '../data/experience.json'
-import education from '../data/education.json'
-import certifications from '../data/certifications.json'
+import experience from '../../data/experience.json'
+import education from '../../data/education.json'
+import certifications from '../../data/certifications.json'
 
 export default function Resume({ lang }) {
     return (
