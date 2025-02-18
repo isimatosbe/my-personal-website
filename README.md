@@ -77,6 +77,15 @@ v0.6 Home Experience English Dark on Galaxy Note 20 | v0.6 Projects English Ligh
 - v1.0: This will be the MVP.
     - [x] Making sure everything looks nice, clean and the information is correct.
     - [x] Splitting CSS
+
+v1.0 Home Spanish Light | v1.0 Projects English Dark
+:-------------------------:|:-------------------------:
+![Screenshot v1.0 Home Spanish Light](/src/imgs/history/v1.0%20-%20Home%20-%20Spa%20-%20Light.png) | ![Screenshot v1.0 Projects English Dark](/src/imgs/history/v1.0%20-%20Projects%20-%20Eng%20-%20Dark.png)
+
+v1.0 Home Footer English Dark | v1.0 Projects Footer Spanish Light
+:-------------------------:|:-------------------------:
+![Screenshot v1.0 Home Footer English Dark](/src/imgs/history/v1.0%20-%20Home%20Footer%20-%20Eng%20-%20Dark.png) | ![Screenshot v1.0 Projects Footer Spanish Light](/src/imgs/history/v1.0%20-%20Projects%20Footer%20-%20Spa%20-%20Light.png)
+
 - v1.1: Projects search option
     - [ ] Search bar
     - [ ] Skill button to search

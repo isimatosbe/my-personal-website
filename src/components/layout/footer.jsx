@@ -4,7 +4,7 @@ import rights from '../../data/footer.json'
 
 export default function Footer({ lang, theme, setTheme, setLang }) {
     return (
-        <footer className="footer" >
+        <footer className="footer" id="footer" >
             <div className="footer-links" >
                 <div className="footer-link" >
                     <a className={theme !== 'dark' ? "footer-active" : ""} 

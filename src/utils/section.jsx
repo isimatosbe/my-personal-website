@@ -5,7 +5,7 @@ export default function Section({ lang, title, data }) {
         data.sort((a, b) => new Date(a.startingDate) <= new Date(b.startingDate) ? 1 : -1)
 
     return (
-        <div key={title}>
+        <div key={title} id={title} >
             <h2 className="bold">{title}</h2>
             <hr />
             {sortedData.map( entry => 

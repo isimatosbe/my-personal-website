@@ -6,7 +6,7 @@ export default function Header({ lang, theme }) {
   const contrastTheme = theme === 'dark' ? 'light' : 'dark';
 
   return (
-    <div className="header">
+    <div className="header" id="header" >
       <img src="/assets/cv-photo.jpg" alt="CV's Photo" width="20%" height="20%" className="cv-photo" />
       <div className="header-data">
         <h1>Isidro Matos Bellido</h1>

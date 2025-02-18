@@ -37,9 +37,9 @@ export default function App() {
     }
 
     return (
-        <div className="app" data-theme={theme}>
+        <div className="app" data-theme={theme} id="app" >
             <BrowserRouter>
-                <div className="top-bar">
+                <div className="top-bar" id="top-bar">
                     <ThemeChanger onClick={switchTheme} theme={theme} />
                     <NavBar lang={lang} />    
                     <LanguageChanger onClick={switchLang} lang={lang} />

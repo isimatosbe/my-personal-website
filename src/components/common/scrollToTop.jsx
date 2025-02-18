@@ -23,11 +23,11 @@ export default function ScrollToTop() {
     };
     
     return (
-        <div>
+        <>
             {isVisible && (
-                <FaArrowCircleUp onClick={scrollToTop} className="fixed-button scroll-to-top" />
+                <FaArrowCircleUp onClick={scrollToTop} className="fixed-button scroll-to-top" id="scroll-to-top" />
             )}
-        </div>
+        </>
     )
 
 }

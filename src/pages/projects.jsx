@@ -5,7 +5,7 @@ import { projectSectionOrder } from '../data/constants.js'
 
 function ProjectConstructor( { lang, list, name } ) {
     return (
-        <div>
+        <div id={name} >
             <h3 className="semi-bold">{projects['sections'][lang][name]}</h3>
             <ul>
                 {list.map( project =>
@@ -33,7 +33,7 @@ export default function Projects({ lang }) {
     const projectSections = Object.keys(groupedProjects).sort((a, b) => projectSectionOrder[a] < projectSectionOrder[b] ? -1 : 1)
 
     return (
-        <div>
+        <div id="projects" >
             <h2 className="bold">{projects['title'][lang]}</h2>
             <hr />
             <p>{projects['description'][lang]}</p>
