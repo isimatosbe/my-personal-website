@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import Project from '../utils/project.jsx'
+import SearchBar from '../utils/searchBar.jsx'
 
 import projects from '../data/projects.json'
 import { projectSectionOrder } from '../data/constants.js'
@@ -22,10 +24,24 @@ function ProjectConstructor( { lang, list, name } ) {
 }
 
 export default function Projects({ lang }) {
+    const [value, setValue] = useState('');
+
     const sortedProjects = 
         projects['data'].sort((a, b) => new Date(a.startingDate) <= new Date(b.startingDate) ? 1 : -1)
-    
-    const groupedProjects = sortedProjects.reduce((groups, project) => {
+
+    const filteredProjects = sortedProjects.filter( project => {
+        const searchValue = value.replaceAll('-', ' ').toLowerCase()
+
+        return (
+            project[lang]['title'].replaceAll('-', ' ').toLowerCase().includes(searchValue) ||
+            project[lang]['description'].toLowerCase().includes(searchValue) ||
+            project.tags.some( tag => tag.toLowerCase().includes(searchValue)) ||
+            projects['sections'][lang][project.status].toLowerCase().includes(searchValue) ||
+            value === ''
+        )
+    })
+
+    const groupedProjects = filteredProjects.reduce((groups, project) => {
         (groups[project.status] = groups[project.status] || []).push(project);
         return groups;
     }, {});
@@ -38,6 +54,7 @@ export default function Projects({ lang }) {
             <hr />
             <p>{projects['description'][lang]}</p>
 
+            <SearchBar lang={lang} section={projects['title'][lang]} value={value} setValue={setValue} />
             {projectSections.map( (section) => 
                 <ProjectConstructor
                     key={section}
