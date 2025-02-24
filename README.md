@@ -87,7 +87,8 @@ v1.0 Home Footer English Dark | v1.0 Projects Footer Spanish Light
 ![Screenshot v1.0 Home Footer English Dark](/src/imgs/history/v1.0%20-%20Home%20Footer%20-%20Eng%20-%20Dark.png) | ![Screenshot v1.0 Projects Footer Spanish Light](/src/imgs/history/v1.0%20-%20Projects%20Footer%20-%20Spa%20-%20Light.png)
 
 - v1.1: Projects search option
-    - [ ] Search bar
+    - [x] Search bar
+    - [ ] Placeholder for no projects found 
     - [ ] Skill button to search
 - v1.2: Using lazy and suspense for optimizing performance.
 - v1.2: Allowing the website to be downloaded as a CV in PDF.

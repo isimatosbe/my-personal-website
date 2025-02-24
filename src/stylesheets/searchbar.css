@@ -1,0 +1,26 @@
+.search-bar-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+}
+
+.search-icon {
+    height: 1.25em;
+    width: 1.25em;
+    order: 0;
+}
+
+.search-bar {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    color: var(--text-primary);
+    order: 1;
+}
+
+.search-bar:focus ~ .search-icon {
+    color: var(--accent);
+}

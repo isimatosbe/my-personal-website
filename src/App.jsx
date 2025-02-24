@@ -6,6 +6,7 @@ import './stylesheets/base.css'
 import './stylesheets/body.css'
 import './stylesheets/buttons.css'
 import './stylesheets/navbar.css'
+import './stylesheets/searchbar.css'
 
 import Home from './pages/home.jsx'
 import Projects from './pages/projects.jsx';

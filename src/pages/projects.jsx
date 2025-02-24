@@ -50,11 +50,14 @@ export default function Projects({ lang }) {
 
     return (
         <div id="projects" >
-            <h2 className="bold">{projects['title'][lang]}</h2>
+            <div className="projects-title" >
+                <h2 className="bold">{projects['title'][lang]}</h2>
+                <SearchBar lang={lang} section={projects['title'][lang]} value={value} setValue={setValue} />
+            </div>
             <hr />
+            
             <p>{projects['description'][lang]}</p>
 
-            <SearchBar lang={lang} section={projects['title'][lang]} value={value} setValue={setValue} />
             {projectSections.map( (section) => 
                 <ProjectConstructor
                     key={section}
