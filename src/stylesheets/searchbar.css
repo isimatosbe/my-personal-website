@@ -18,6 +18,7 @@
     outline: 0;
     font-size: 1em;
     color: var(--text-primary);
+    background-color: transparent;
     order: 1;
 }
 

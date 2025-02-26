@@ -7,6 +7,10 @@
         "en": "This section of the website will serve as a showcase of some projects I deem interesting to showcase. The page will be divided into the projects I have already finished, or I am no longer working on, and those that I am actively working on. In the future, I might even add a section for dropped projects.",
         "es": "Esta sección de la página web servirá como un escaparate para mostrar algunos proyectos que considero interesantes. La página estará dividida en dos categorías, los proyectos que ya he finalizado o en los que ya no estoy trabajando, y aquellos en los que estoy trabajando activamente. En el futuro, es posible que incluso agregue una sección para proyectos descartados."
     },
+    "noResults": {
+        "en": "No projects found.",
+        "es": "Ningún proyecto encontrado."
+    },
     "sections": {
         "en": {
             "finished": "Finished",

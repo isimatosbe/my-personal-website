@@ -88,7 +88,7 @@ v1.0 Home Footer English Dark | v1.0 Projects Footer Spanish Light
 
 - v1.1: Projects search option
     - [x] Search bar
-    - [ ] Placeholder for no projects found 
+    - [x] Placeholder for no projects found 
     - [ ] Skill button to search
 - v1.2: Using lazy and suspense for optimizing performance.
 - v1.2: Allowing the website to be downloaded as a CV in PDF.

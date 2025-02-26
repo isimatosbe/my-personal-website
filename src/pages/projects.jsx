@@ -57,14 +57,16 @@ export default function Projects({ lang }) {
             <hr />
             
             <p>{projects['description'][lang]}</p>
-
-            {projectSections.map( (section) => 
-                <ProjectConstructor
-                    key={section}
-                    lang={lang}
-                    list={groupedProjects[section]}
-                    name={section} />
-                )
+            
+            {filteredProjects.length === 0 ? 
+                <p className="grey" >{projects['noResults'][lang]}</p> :
+                projectSections.map( (section) => 
+                    <ProjectConstructor
+                        key={section}
+                        lang={lang}
+                        list={groupedProjects[section]}
+                        name={section} />
+                    )
             }
         </div>
     )

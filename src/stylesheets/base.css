@@ -33,6 +33,10 @@ hr {
   font-weight: 550;
 }
 
+.grey {
+  color: var(--grey);
+}
+
 /* Code Styles */
 .code {
   font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
