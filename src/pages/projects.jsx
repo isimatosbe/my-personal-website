@@ -2,10 +2,12 @@ import { useState } from 'react'
 import Project from '../utils/project.jsx'
 import SearchBar from '../utils/searchBar.jsx'
 
+import Tag from '../utils/tag.jsx'
+
 import projects from '../data/projects.json'
 import { projectSectionOrder } from '../data/constants.js'
 
-function ProjectConstructor( { lang, list, name } ) {
+function ProjectConstructor( { lang, list, name, onClick } ) {
     return (
         <div id={name} >
             <h3 className="semi-bold">{projects['sections'][lang][name]}</h3>
@@ -16,7 +18,8 @@ function ProjectConstructor( { lang, list, name } ) {
                         title={project[lang]['title']} 
                         url={project.url}
                         tags={project.tags} 
-                        description={project[lang]['description']} />
+                        description={project[lang]['description']}
+                        onClick={onClick} />
                 )}
             </ul>
         </div>
@@ -25,6 +28,15 @@ function ProjectConstructor( { lang, list, name } ) {
 
 export default function Projects({ lang }) {
     const [value, setValue] = useState('');
+    const [tags, setTags] = useState([]);
+
+    const handleTagClick = (tag) => {
+        if (tags.includes(tag)) {
+            setTags(tags.filter( t => t !== tag))
+        } else {
+            setTags([...tags, tag])
+        }
+    }
 
     const sortedProjects = 
         projects['data'].sort((a, b) => new Date(a.startingDate) <= new Date(b.startingDate) ? 1 : -1)
@@ -33,11 +45,13 @@ export default function Projects({ lang }) {
         const searchValue = value.replaceAll('-', ' ').toLowerCase()
 
         return (
-            project[lang]['title'].replaceAll('-', ' ').toLowerCase().includes(searchValue) ||
+            (project[lang]['title'].replaceAll('-', ' ').toLowerCase().includes(searchValue) ||
             project[lang]['description'].toLowerCase().includes(searchValue) ||
             project.tags.some( tag => tag.toLowerCase().includes(searchValue)) ||
             projects['sections'][lang][project.status].toLowerCase().includes(searchValue) ||
-            value === ''
+            value === '') &&
+            (tags.length === 0 || 
+            tags.every( tag => project.tags.includes(tag)))
         )
     })
 
@@ -57,6 +71,15 @@ export default function Projects({ lang }) {
             <hr />
             
             <p>{projects['description'][lang]}</p>
+
+            {tags.length > 0 &&
+                <div className="project" >
+                    <p className="code">{lang === 'en' ? 'Filtered tags:' : 'Tags filtrados:'}</p>
+                    {tags.map( tag =>
+                        <Tag key={tag} tag={tag} onClick={handleTagClick} />
+                    )}
+                </div>
+            }
             
             {filteredProjects.length === 0 ? 
                 <p className="grey" >{projects['noResults'][lang]}</p> :
@@ -65,7 +88,8 @@ export default function Projects({ lang }) {
                         key={section}
                         lang={lang}
                         list={groupedProjects[section]}
-                        name={section} />
+                        name={section} 
+                        onClick={handleTagClick} />
                     )
             }
         </div>

@@ -89,7 +89,8 @@ v1.0 Home Footer English Dark | v1.0 Projects Footer Spanish Light
 - v1.1: Projects search option
     - [x] Search bar
     - [x] Placeholder for no projects found 
-    - [ ] Skill button to search
+    - [x] Tag button to search
+    - [ ] Order tags in alphabetical order
 - v1.2: Using lazy and suspense for optimizing performance.
 - v1.2: Allowing the website to be downloaded as a CV in PDF.
 - v2.0: Learning TypeScript and updating the website to TS.
