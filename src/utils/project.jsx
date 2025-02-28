@@ -1,6 +1,6 @@
 import Tag from './tag'
 
-export default function Project ( { title, url, tags, description } ) { 
+export default function Project ( { title, url, tags, description, onClick } ) { 
     return (
         <div>
             <div className="project">
@@ -10,7 +10,7 @@ export default function Project ( { title, url, tags, description } ) {
                 }
                 {typeof tags !== 'undefined' ?
                     tags.map( tag =>
-                        <Tag key={tag} tag={tag} />
+                        <Tag key={tag} tag={tag} onClick={onClick} />
                     ) :
                     <></>
                 }

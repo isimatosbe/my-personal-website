@@ -5,6 +5,7 @@
   gap: 1em;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 1em;
 }
 
 /* Header Data Styles */
