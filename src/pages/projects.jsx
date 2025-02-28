@@ -17,7 +17,7 @@ function ProjectConstructor( { lang, list, name, onClick } ) {
                         key={project[lang]['title']}
                         title={project[lang]['title']} 
                         url={project.url}
-                        tags={project.tags} 
+                        tags={project.tags.sort()}
                         description={project[lang]['description']}
                         onClick={onClick} />
                 )}

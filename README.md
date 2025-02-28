@@ -90,9 +90,14 @@ v1.0 Home Footer English Dark | v1.0 Projects Footer Spanish Light
     - [x] Search bar
     - [x] Placeholder for no projects found 
     - [x] Tag button to search
-    - [ ] Order tags in alphabetical order
+    - [x] Order tags in alphabetical order
+
+v1.1 Projects English Dark | v1.1 Projects Not Found Spanish Light | v1.1 Projects Tag & Filter English Dark
+:-------------------------:|:-------------------------:|:-------------------------:
+![Screenshot v1.1 Projects Filter English Dark](/src/imgs/history/v1.1%20-%20Projects%20Filter%20-%20Eng%20-%20Dark.png) | ![Screenshot v1.1 Projects Not Found Spanish Light](/src/imgs/history/v1.1%20-%20Projects%20Not%20Found%20-%20Spa%20-%20Light.png) | ![Screenshot v1.1 Projects Tag & Filter English Dark](/src/imgs/history/v1.1%20-%20Projects%20Tag%20&%20Filter%20-%20Eng%20-%20Dark.png)
+
 - v1.2: Using lazy and suspense for optimizing performance.
-- v1.2: Allowing the website to be downloaded as a CV in PDF.
+- v1.3: Allowing the website to be downloaded as a CV in PDF.
 - v2.0: Learning TypeScript and updating the website to TS.
 
 Initial mockup for the MVP:
