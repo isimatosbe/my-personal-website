@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
+import { lazy } from 'react';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import useLocalStorage from 'use-local-storage';
 
@@ -8,8 +9,8 @@ import './stylesheets/buttons.css'
 import './stylesheets/navbar.css'
 import './stylesheets/searchbar.css'
 
-import Home from './pages/home.jsx'
-import Projects from './pages/projects.jsx';
+const Home = lazy(() => import('./pages/home.jsx'))
+const Projects = lazy(() => import('./pages/projects.jsx'))
 
 import Footer from './components/layout/footer.jsx';
 import Header from './components/layout/header.jsx';
