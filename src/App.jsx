@@ -52,7 +52,9 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Home lang={lang} />} />
                     <Route path="/projects" element={<Projects lang={lang} />} />
+                    <Route path="/cv" element={<h1>CV</h1>} />
                 </Routes>
+                
                 <ScrollToTop />
                 <Footer 
                     lang={lang} setLang={setLang}

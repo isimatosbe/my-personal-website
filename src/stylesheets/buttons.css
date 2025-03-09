@@ -5,6 +5,11 @@
   width: 2.5rem;
   cursor: pointer;
   flex-shrink: 0;
+
+  /* Hide fixed buttons on print */
+  @media print {
+    display: none;
+  }
 }
 
 /* Scroll to Top Button Styles */

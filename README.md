@@ -99,7 +99,7 @@ v1.1 Projects English Dark | v1.1 Projects Not Found Spanish Light | v1.1 Projec
 - v1.2: Using `lazy` and `Suspense` for optimizing performance.
     - [x] `lazy`
     - [x] ~~`Suspense`~~: The website is pretty small so it won't benefit from this implementation.
-- v1.3: Allowing the website to be downloaded as a CV in PDF.
+- v1.3: Allowing the website to be downloaded as a CV in PDF. It seems like I will have to use the print() method or a library using it, it's going to be tough.
 - v2.0: Learning TypeScript and updating the website to TS.
 
 Initial mockup for the MVP:

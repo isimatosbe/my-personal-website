@@ -57,6 +57,12 @@ a:hover {
 
 /* Media Queries */
 
+@media print {
+  @page {
+    size: A4 landscape;
+  }
+}
+
 /* Styles for devices with a maximum width of 1850px */
 @media (max-width: 1850px) {
   h1 {

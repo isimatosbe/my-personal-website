@@ -5,6 +5,11 @@
   align-items: center;
   gap: 1em;
   padding: 1em 0;
+
+  /* Hide top-bar on print */
+  @media print {
+    display: none;
+  }
 }
 
 /* Navigation Bar Styles */
