@@ -100,6 +100,9 @@ v1.1 Projects English Dark | v1.1 Projects Not Found Spanish Light | v1.1 Projec
     - [x] `lazy`
     - [x] ~~`Suspense`~~: The website is pretty small so it won't benefit from this implementation.
 - v1.3: Allowing the website to be downloaded as a CV in PDF. It seems like I will have to use the print() method or a library using it, it's going to be tough.
+    - [x] Being able to print the CV in PDF.
+    - [ ] Being able to choose which projects to include.
+    - [ ] Adding a customization print CV page.
 - v2.0: Learning TypeScript and updating the website to TS.
 
 Initial mockup for the MVP:

@@ -11,6 +11,7 @@ import './stylesheets/searchbar.css'
 
 const Home = lazy(() => import('./pages/home.jsx'))
 const Projects = lazy(() => import('./pages/projects.jsx'))
+const CV = lazy(() => import('./pages/cv.jsx'))
 
 import Footer from './components/layout/footer.jsx';
 import Header from './components/layout/header.jsx';
@@ -19,6 +20,7 @@ import NavBar from './components/layout/navBar.jsx';
 import LanguageChanger from './components/common/languageChanger.jsx';
 import ScrollToTop from './components/common/scrollToTop.jsx';
 import ThemeChanger from './components/common/themeChanger.jsx';
+import PrintCV from './components/common/printCV.jsx';
 
 export default function App() {
     const languageDetector = new LanguageDetector();
@@ -45,6 +47,7 @@ export default function App() {
                     <ThemeChanger onClick={switchTheme} theme={theme} />
                     <NavBar lang={lang} />    
                     <LanguageChanger onClick={switchLang} lang={lang} />
+                    <PrintCV />
                 </div>
                 
                 <Header lang={lang} theme={theme} />
@@ -52,7 +55,7 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Home lang={lang} />} />
                     <Route path="/projects" element={<Projects lang={lang} />} />
-                    <Route path="/cv" element={<h1>CV</h1>} />
+                    <Route path="/cv" element={<CV lang={lang}/>} />
                 </Routes>
                 
                 <ScrollToTop />

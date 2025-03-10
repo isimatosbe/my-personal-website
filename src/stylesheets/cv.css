@@ -1,0 +1,20 @@
+*:not(.print):not(.print *):not(html):not(head):not(body):not(#root):not(.app):not(.cv) {
+    display: none;
+}
+
+.print {
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    padding: 2em;
+    border:none;
+    font-size: 14px;
+}
+
+.print .cv-photo {
+    display: none;
+}
+
+.print .header-data {
+    flex: auto;
+}

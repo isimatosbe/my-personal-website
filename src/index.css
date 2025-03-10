@@ -59,7 +59,14 @@ a:hover {
 
 @media print {
   @page {
-    size: A4 landscape;
+    size: A4;
+    margin: 0;
+  }
+
+  .app {
+    background-color: white !important;
+    width: 210mm !important;
+    height: 297mm !important;
   }
 }
 
