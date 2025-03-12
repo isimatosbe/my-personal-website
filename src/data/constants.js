@@ -18,11 +18,13 @@ export const levelDescrition = {
 export const navBarItems = { 
     "en": {
         "home": "Home",
-        "projects": "Projects"	
+        "projects": "Projects",
+        "print-cv": "Print CV"	
     },
     "es": {
         "home": "Inicio",
-        "projects": "Proyectos"	
+        "projects": "Proyectos",
+        "print-cv": "Imprimir CV"
     }
 }
 

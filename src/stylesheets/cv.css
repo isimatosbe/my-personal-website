@@ -18,3 +18,20 @@
 .print .header-data {
     flex: auto;
 }
+
+.app {
+    background-color: white;
+    padding: 0;
+}
+
+.code {
+    color: var(--black)
+}
+
+.entry {
+    margin-bottom: 0;
+}
+
+.search-bar-container, .projects-introduction, #dropped {
+    display: none;
+}

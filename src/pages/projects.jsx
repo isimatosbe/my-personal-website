@@ -70,7 +70,7 @@ export default function Projects({ lang }) {
             </div>
             <hr />
             
-            <p>{projects['description'][lang]}</p>
+            <p className="projects-introduction" >{projects['description'][lang]}</p>
 
             {tags.length > 0 &&
                 <div className="project" >
@@ -89,7 +89,8 @@ export default function Projects({ lang }) {
                         lang={lang}
                         list={groupedProjects[section]}
                         name={section} 
-                        onClick={handleTagClick} />
+                        onClick={handleTagClick}
+                        id={section} />
                     )
             }
         </div>
