@@ -1,4 +1,5 @@
-*:not(.print):not(.print *):not(html):not(head):not(body):not(#root):not(.app):not(.cv) {
+*:not(.print):not(.print *):not(html):not(head):not(body):not(#root):not(.app):not(.cv),
+.print .cv-photo, .search-bar-container, .projects-introduction, #dropped {
     display: none;
 }
 
@@ -7,12 +8,11 @@
     background-color: white;
     color: black;
     padding: 2em;
-    border:none;
-    font-size: 14px;
-}
-
-.print .cv-photo {
-    display: none;
+    border: none;
+    /*font-size: 14px;*/
+    min-height: calc(297mm - 4em);
+    /*height: calc(297mm - 4em);*/
+    width: calc(210mm - 4em);
 }
 
 .print .header-data {
@@ -22,6 +22,7 @@
 .app {
     background-color: white;
     padding: 0;
+    min-height: auto;
 }
 
 .code {
@@ -30,8 +31,4 @@
 
 .entry {
     margin-bottom: 0;
-}
-
-.search-bar-container, .projects-introduction, #dropped {
-    display: none;
 }

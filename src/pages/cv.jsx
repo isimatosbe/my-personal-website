@@ -4,12 +4,15 @@ import Projects from './projects'
 
 import '../stylesheets/cv.css'
 
-export default function CV({ lang }) {
+export default function CV({ lang, printConfig }) {
+    const useProjects = printConfig['useProjects']
+    const fontSize = printConfig['fontSize']
+
     return (
-        <div className="print" id="print">
+        <div className="print" id="print" style={{fontSize: fontSize + "px"}} >
             <Header lang={lang} />
             <Home lang={lang} />
-            <Projects lang={lang} />
+            {useProjects && <Projects lang={lang} />}
         </div>
     )
 }

@@ -40,6 +40,17 @@ export default function App() {
         setTheme(newTheme);
     }
 
+    const printConfigInitial = {
+        useProjects: true,
+        fontSize: 14
+    }
+    const [printConfig, setPrintConfig] = useLocalStorage('printConfig', printConfigInitial);
+    const updatePrintConfig = (option, value) => {
+        console.log(option, value);
+        const newPrintConfig = {...printConfig, [option]: value};
+        setPrintConfig(newPrintConfig);
+    }
+
     return (
         <div className="app" data-theme={theme} id="app" >
             <BrowserRouter>
@@ -54,8 +65,8 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Home lang={lang} />} />
                     <Route path="/projects" element={<Projects lang={lang} />} />
-                    <Route path="/cv" element={<CV lang={lang}/>} />
-                    <Route path="/print-cv" element={<PrintCV lang={lang}/>} />
+                    <Route path="/cv" element={<CV lang={lang} printConfig={printConfig} />} />
+                    <Route path="/print-cv" element={<PrintCV lang={lang} printConfig={printConfig} updatePrintConfig={updatePrintConfig} />} />
                 </Routes>
                 
                 <ScrollToTop />
