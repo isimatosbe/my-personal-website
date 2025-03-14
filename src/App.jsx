@@ -41,8 +41,9 @@ export default function App() {
     }
 
     const printConfigInitial = {
-        useProjects: true,
-        fontSize: 14
+        useProjects: false,
+        fontSize: 14,
+        padding: 5
     }
     const [printConfig, setPrintConfig] = useLocalStorage('printConfig', printConfigInitial);
     const updatePrintConfig = (option, value) => {

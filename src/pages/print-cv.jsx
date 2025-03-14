@@ -12,11 +12,15 @@ export default function PrintCV({ lang, printConfig, updatePrintConfig }) {
     return (
         <div className="cv">
             <label>
-                <input type="checkbox" name="checkProjects" defaultChecked={useProjects} onChange={onChange} /> Show projects
+                <input type="checkbox" name="showProjects" defaultChecked={useProjects} onChange={onChange} /> Show projects
             </label>
             <br></br>
             <label>
-                Font size: <input type="number" name="checkFont" min="10" max="20" step="1" defaultValue={printConfig['fontSize']} onChange={e => updatePrintConfig('fontSize', e.target.value)} />
+                Font size: <input type="number" name="fontSize" min="10" max="20" step="1" defaultValue={printConfig['fontSize']} onChange={e => updatePrintConfig('fontSize', e.target.value)} />
+            </label>
+            <br></br>
+            <label>
+                Padding: <input type="number" name="padding" min="1" max="10" step="1" defaultValue={printConfig['padding']} onChange={e => updatePrintConfig('padding', e.target.value)} />
             </label>
             <br></br>
             <button onClick={onClick}>{lang === 'en' ? 'Print CV' : 'Imprimir CV'}</button>
