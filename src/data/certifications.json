@@ -41,13 +41,13 @@
         {
             "en": {
                 "organization": "Cambridge Assessment English",
-                "description": "First Certificate in English (B2)"
+                "description": "Advance Certificate in English (C1)"
             },
             "es": {
                 "organization": "Cambridge Assessment English",
-                "description": "First Certificate in English (B2)"
+                "description": "Advance Certificate in English (C1)"
             },
-            "startingDate": "2016-06-01" 
+            "startingDate": "2025-06-01" 
         }
     ]
 }
